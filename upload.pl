@@ -21,7 +21,8 @@ toXhtml.pl
 upload.pl
 toXhtml
 upload
-xhtml10strict.xsl';
+xhtml10strict.xsl
+README.markdown';
 
 main($ignore, 'home.arcor.de', 'partusch');
 
