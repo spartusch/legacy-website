@@ -13,10 +13,10 @@ The build system searches the folders xml\_en and xml\_de to find XML files to p
 Other features of the build system:
 
 * Detects which XML files were changed since the last upload and processes only those files
-* Acronyms are detected and "explained" using <abbr>-tags automatically
+* Acronyms are detected and "explained" using < abbr > tags automatically
 * Common strings are specified centrally
 
-Important files
+Important Files
 ---------------
 
 * FindModified.pm - Perl module to find modified files
