@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Programs</title>
+		<language>en</language>
+		<description>Freeware and open source programs from Stefan Partusch</description>
+		<category>main_programs</category>
+	</meta>
+	<content>
+		<section title="Programs" auto_toc="no">
+			<block><text>This page lists all available programs. All of these programs are at least freeware and therefore completely free to use. Please note that I can't provide any warranty for the programs. See </text><link url="copyright.html">Licenses and Copyright</link><text> for additional license and copyright information.</text></block>
+
+			<section title="Apps for iOS (iPhone and iPod Touch)">
+				<program>
+					<name>Mart's Lists</name>
+					<title>Mart's Lists are smart lists</title>
+					<link>martslists.html</link>
+					<screenshot width="118" height="170">martslists_en_1.jpg</screenshot>
+					<description>Mart's Lists lets you create and manage lists easily. It provides a convenient pad-like way to browse through your lists. If you allow it to, Mart's Lists will learn automatically if an item is required regularly and in which interval. And Mart's Lists supports dictation of your lists to make your life even more comfortable!</description>
+				</program>
+			</section>
+
+			<section title="Platform independent programs">
+				<program>
+					<name>PTInfo Munich</name>
+					<title>PTInfo Munich for Mobiles 0.0.1</title>
+					<link>ptinfo.html</link>
+					<description>A small program for mobile devices to calculate departure and arrival times for public trains in Munich.</description>
+				</program>
+			</section>
+
+			<section title="Programs for Windows">
+				<program>
+					<name>DevCont</name>
+					<title>DevCont - Developer's Connector 1.0.1</title>
+					<link>devcont.html</link>
+					<screenshot width="140" height="80">devcont.jpg</screenshot>
+					<description>Allows you to connect to any computer and any service using TCP/IP or UDP/IP connections to exchange data and debug your sever applications or simply to test internet protocols.</description>
+				</program>
+
+				<program>
+					<name>Japtra</name>
+					<title>Japtra - Japanese Trainer 1.0.1</title>
+					<link>japtra.html</link>
+					<screenshot width="140" height="80">japtra.jpg</screenshot>
+					<description>Japtra asks you Japanese words and phrases to assist you while learning the language. It allows the creation of vocabulary lists and is capable of kana (hiragana and katakana).</description>
+				</program>
+			</section>
+
+			<section title="Programs for MS-DOS/Windows">
+				<program>
+					<name>Brainfucked</name>
+					<title>Brainfucked - Brainfuck Compiler 1.0.0</title>
+					<link>bfd.html</link>
+					<description>An open source compiler with syntax checking and advanced code optimization for the programming language "Brainfuck".</description>
+				</program>
+			</section>
+			<section title='"Easter Eggs"'>
+				<block><text>In nearly all of my programs so called Easter Eggs are hidden. Easter Eggs are undocumented features in e.g. software, which display certain text or reveal photos. Usually Easter Eggs are quite good hidden and because of this I made a page on </text><link url="eastereggs.html">how to find Easter Eggs</link><text> in my programs.</text></block>
+			</section>
+		</section>
+	</content>
+</page>

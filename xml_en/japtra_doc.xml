@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Japtra - Documentation</title>
+		<language>en</language>
+		<description>Documentation of Japtra</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Japtra - Documentation">
+			<block><text>The following is the documentation of the program </text><link url="japtra.html">Japtra - Japanese Trainer</link><text>.</text></block>
+
+			<section title="Introduction">
+				<block><text>Japtra asks you Japanese words and phrases to assist you while learning the language. It's capable of hiragana and katakana and is expandable!</text></block>
+			</section>
+
+			<section title="Adding an additional Course">
+				<block><text>A Japanese course for Japtra consists of at least a jat-file and another one. The jat-file (e.g. "course.jat") contains general information about the Japanese course and the other file, which can have any legal filename, contains the words of the course.</text></block>
+				<block><text>To add a new course, do the following:</text></block>
+				<list type="ordered">
+					<element><text>Unzip the zip file of the course which you downloaded.</text></element>
+					<element><text>Move the two files to the dircetory into which you installed Japtra (the directory with the file "japtra.exe").</text></element>
+					<element><text>Re-start Japtra.</text></element>
+				</list>
+				<block><text>That's all! The new course is now available from within Japtra.</text></block>
+			</section>
+
+			<section title="Creating new Courses">
+				<block><text>Japtra is arbitrarily expandable, i.e. you can provide your own Japanese course or convert an existing to Japtra. All you need is a simple text editor like for instance Windows Notepad. To create a new course you must create a new text file with an arbitrary name and add the words to it. Each line in the file which starts with an * (asterisk) is considered a comment and completely ignored by Japtra. All other lines must be empty or contain words.</text></block>
+
+				<block><text>The format of a line containing words is always the same:</text><text>Romaji writing; English meaning; Romaji level; Hiragana level; Katakana level;</text><text>(Note: The separation of the individual sections of a line by semicolons is very important!)</text></block>
+
+				<block><text>Where "Romaji writing" means the Japanese word written with "our" characters and "English meaning" is the English meaning of the Japanese word; "Romaji level" is the romaji level where the word is to be asked; "Hiragana level" is the hiragana level where the word is to be asked and "Katakana level" is the katakana level where the word is to be asked.</text></block>
+
+				<block><text>To the romaji section and the section with the English meaning applies:</text></block>
+				<list>
+					<element><text>Several equal meanings are separated by commas.</text></element>
+					<element><text>Commas within quotation marks (") are ignored.</text></element>
+					<element><text>Comments are separated by "|". Everything following a "|" is considered a comment!</text></element>
+					<element><text>If only certain parts of a meaning are relevant, they must be included in "[" and "]".</text></element>
+					<element><text>Brackets "(" and ")" can be used to indicate that certain letters are not spoken.</text></element>
+				</list>
+
+				<block><text>To the different levels applies:</text></block>
+				<list>
+					<element><text>0 means that the entry is never asked in the category.</text></element>
+					<element>
+						<text>Otherwise one can use all possible sorts of levels. These are read in by Japtra and sorted. Valid levels are for instance numbers, numbers and letters or numbers seperated by other characters.</text><text>Thus valid levels are e.g.:</text>
+						<list>	
+							<element><text>1, 2, 3, 4, 5...</text></element>
+							<element><text>1a, 1b, 2a, 2b, 3a, 3b...</text></element>
+							<element><text>1.1, 1.2, 2.2, 2.3, 3.3...</text></element>
+						</list>
+					</element>
+				</list>
+
+				<block><text>Some examples for vocabulary entries:</text></block>
+				<list>
+					<element><text>hai;  yes;  1;  1;  1;</text><text>a "standard line".</text></element>
+					<element><text>aôi;  blue, green;  1;  0;  0;</text><text>One Japanese and two English meanings.</text></element>
+					<element><text>osake;  Sake |(rice wine);  2a;  1;  0;</text><text>Sake with the comment "(rice wine)". Romaji level is 2a, hiragana level 1 and no katakana level.</text></element>
+					<element><text>"Hajimemashite, dôzo yoroshiku";  "Nice, to meet you";  1;  0;  0;</text><text>The comma is ignored, thus there is only one meaning.</text></element>
+					<element><text>Genki.desu;  [I]'m [fine];  2;  3;  3;</text><text>An English answer must at least contain "I" and "fine".</text></element>
+					<element><text>hônya; booksellers, a [bookshop];  1.2;  1a;  0;</text></element>
+				</list>
+
+				<block><text>Only alphanumeric characters are considered by Japtra while processing inputs! All other characters like the ones for punctuation are ignored. Characters like ô or é are converted to o or e (unless the option "Mind characters indicating stress" is selected).</text></block>
+
+				<block><text>Finally you have to create a jat-file, e.g. a file called "course.jat"! This file must start with "[Japtra]" in the first line followed by entries with the format entry = value:</text></block>
+				<list>
+					<element><text>Name - The name of the course. </text></element>
+					<element><text>URL - Arbitrary URL, e.g. the address of the course.</text></element>
+					<element><text>LangID - The language of the course. Use DE for German and EN for English.</text></element>
+					<element><text>LvlText - The designation of the different levels in the course.</text></element>
+					<element><text>File - The file containing the words.</text></element>
+				</list>
+
+				<block><text>The contents of such a file could look like this:</text></block>
+
+				<pre xmlns="http://www.w3.org/1999/xhtml">[Japtra]
+Name	= Japanese Online
+URL	= http://www.japanese-online.com
+LangID	= EN
+LvlText	= Lesson
+File	= en_japonline.jvl</pre>
+			</section>
+			<block><text>Have fun using Japtra!</text></block>
+		</section>
+	</content>
+</page>

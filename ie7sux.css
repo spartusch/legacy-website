@@ -1,0 +1,35 @@
+/*	CSS-Design for http://www.partusch.de.vu
+	This file deals with the CSS of IE 7. It "neutralizes" some of the standard compliant CSS to avoid "confusing" IE. */
+
+#download ul.platform p { width: 54%; }
+#nav li a { display: inline; }
+a { display: inline; }
+
+/* Navigation / Menu */
+
+#nav {
+    display: block;
+	position: static;
+	top: auto;
+}
+#nav li {
+    display: inline;
+    border: 0;
+	padding: 0 0.45em;
+}
+#nav li:hover ul.sublist {
+	top: 1.5em;
+	left: 0em;
+	margin-top: -1px;
+}
+
+#nav li:hover { position: relative; }
+#nav li.current { position: relative; }
+
+/* Lists in content */
+
+#content ul, #content ol {
+	list-style-position: inside;
+	width: 83%;
+}
+#content ol.gpl li { list-style-type: decimal; }

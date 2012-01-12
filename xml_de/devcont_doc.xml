@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>DevCont Dokumentation</title>
+		<language>de</language>
+		<description>Dokumentation des Programms DevCont</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="DevCont Dokumentation">
+			<block><text>Das Folgende ist die Dokumentation des Programms </text><link url="devcont.html">DevCont - Developer's Connector</link><text>.</text></block>
+
+			<section title="Einleitung">
+				<block><text>DevCont ist ein Programm mit sehr vielen Möglichkeiten. Es beherrscht sowohl TCP/IP als auch UDP/IP. Desweiteren verfügt es über drei verschiedene Übertragungsmodi, die im Abschnitt "Die verschiedenen Modi" genauer beschrieben werden. Aufgrund dieser Vielseitigkeit richtet sich DevCont an etwas erfahrerne Benutzer oder Software-Entwickler.</text></block>
+				<block><text>DevCont hat zwei Hauptanwendungsgebiete:</text></block>
+				<list type="ordered">
+					<element><text>DevCont soll es Entwicklern ermöglichen auf einfache Weise ihre Serveranwendungen zu testen ohne der Notwendigkeit extra einen Client dafür zu schreiben.</text></element>
+					<element><text>Es soll Entwicklern die Möglichkeit geben, einfach Protokolle auszutesten, bevor sie Anwendungen dafür entwickeln. Nichts ist so ärgerlich, als wenn man tagelang an einer Anwendung geschrieben hat, nur um festzustellen, dass sie nicht funktioniert, weil man ein RFC o.Ä. falsch verstanden hat.</text></element>
+				</list>
+				<block><text>Aber auch "normale" Benutzer können DevCont dafür verwenden, um ihr Verständnis was Internetprotokolle angeht zu verbessern oder einfach um herumzuspielen.</text></block>
+			</section>
+
+ 			<section title="Das Interface">
+				<block><text>Das Interface ist zwar einfach zu verwenden, dennoch kurz eine Erklärung. Ganz links über dem Ausgabefeld befindet sich ein Eingabefeld für die IP bzw. den Namen des Zielrechners. Daneben ein Feld für den Port, zu dem verbindet werden soll. Gefolgt von dem Button "connect", welcher mit dem Ziel eine Verbindung aufbaut, dem Button "disconnect" welcher diese Verbindung wieder trennt und ein leeres Feld, welches für Eingaben zuständig ist. Wenn man etwas in dieses Feld schreibt, braucht man nur noch ENTER zu drücken, um die Eingabe abzuschicken. Darunter folgt dann das Feld, in dem die Ausgaben stehen und darunter eine Statuszeile mit verschiedenen Anzeigen.</text></block>
+			</section>
+
+ 			<section title="Die Einstellungsmöglichkeiten">
+				<block><text>Einstellungen werden in DevCont auf zwei Arten geändert:</text></block>
+				<list type="ordered">
+					<element>
+						<text>Auf das Eingabefeld klicken, die zu ändernde Option eingeben und mit ENTER bestätigen. Das war's auch schon.</text><text> Dabei gibt es folgende Optionen (Eingabe jeweils ohne den Anführungszeichen, aber mit Doppelpunkt!):</text>
+						<list>
+							<element><text>":tcp" eingeben um das TCP Protokoll zu verwenden</text></element>
+							<element><text>":udp" eingeben um das UDP Protokoll zu verwenden</text></element>
+							<element><text>":bin" oder ":binary" eingeben um in den Binärmodus zu wechseln</text></element>
+							<element><text>":adv" oder ":advanced" eingeben um in den Advanced Modus zu wechseln</text></element>
+							<element><text>":ascii" eingeben um in den ASCII-Modus zu wechseln</text></element>
+							<element><text>":scheme x" um das Farbschema zu wechseln; x ist die Nummer des Schemas</text>
+								<block><text>Tabelle aller Farbschemen:</text></block>
+								<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Nummer:</th><th>Textfarbe:</th><th>Hintergrund:</th></tr>
+ <tr><td>1</td><td>Weiß</td><td>Blau</td></tr>
+ <tr><td>2</td><td>Grün</td><td>Schwarz</td></tr>
+ <tr><td>3</td><td>Weiß</td><td>Schwarz</td></tr>
+ <tr><td>4</td><td>Gelb</td><td>Rot</td></tr>
+ <tr><td>5</td><td>Schwarz</td><td>Grau</td></tr>
+ <tr><td>6</td><td>Schwarz</td><td>Weiß</td></tr>
+ <tr><td>7</td><td>Gelb</td><td>Schwarz</td></tr>
+ <tr><td>8</td><td>Schwarz</td><td>Gelb</td></tr>
+ <tr><td>9</td><td>Gelb</td><td>Blau</td></tr>
+ </table>
+							</element>
+							<element><text>":winsock" eingeben um allgemeine Winsockinformationen anzuzeigen</text></element>
+							<element><text>":stats" eingeben um allgemeine Verbindungsstatistiken anzuzeigen</text></element>
+						</list>
+					</element>
+
+					<element><text>Einstellungen können auch durch Mausklicks auf die Statusbar geändert werden.</text><text>Das verwendete Protokoll sowie der Übertragungsmodus können durch Mausklick auf die entsprechende Stelle bequem geändert werden. Ein Mausklick auf die Gesendete/Empfangene Bytes Anzeige zeigt eine Gesamtstatistik an.</text></element>
+				</list>
+
+				<block><text>F1 oder ":help" zeigt eine englische Hilfe an.</text><text>WICHTIG: Die Einstellungen können nur geändert werden, wenn KEINE Verbindung besteht!</text></block>
+			</section>
+
+ 			<section title="Die verschiedenen Modi">
+				<section title="Der ASCII-Modus">
+					<block><text>Dies ist der Standardmodus. Er ist hervorragend für Protokolle wie z.B. SMTP oder POP3 geeignet. Er überträgt die Eingabe im Eingabefeld als ganz normalen ASCII-Text, hängt jedoch an jede einzelne Übertragung ein CR LF an. Dies entspricht dem Format, wie es die meisten Internetprotokolle erwarten.</text></block>
+				</section>
+				<section title="Der Binärmodus">
+					<block><text>Im Binärmodus werden die Hexcodes der einzelnen Bytes im Eingabefeld eingegeben. Es wird nur das gesendet, was auch eingegeben wird. Von dem Empfangenen werden ebenfalls nur die Hexcodes angezeigt. Dieser Modus ist für Verbindungen/Protokolle gedacht, die nicht darstellbare ASCII-Zeichen übertragen (z.B. SOCKS).</text></block>
+				</section>
+				<section title="Der Advanced Modus">
+					<block><text>Ist eigentlich ein ASCII-Modus mit Elementen des Binärmodus. Es werden ASCII-Zeichen übertragen, jedoch nichts automatisch angehängt. Dieser Modus unterstützt auch bestimmte aus den Programmiersprachen C/C++ bekannte Escape-Sequenzen, um nicht darstellbare ASCII-Zeichen darzustellen und zu übertragen. (Hinweis: Um ein Backslash zu machen, muss die Escape Sequenz \\ verwendet werden!)</text></block>
+					<block><text>Der Advanced Modus unterstützt folgende Escape-Sequenzen:</text></block>
+					<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Sequenz:</th><th>Dezimalwert:</th><th>ASCII-Zeichen:</th></tr>
+ <tr><td>\a</td><td>7</td><td>BEL (Klingelzeichen)</td></tr>
+ <tr><td>\b</td><td>8</td><td>BS</td></tr>
+ <tr><td>\t</td><td>9</td><td>HT (horizontaler Tabulator)</td></tr>
+ <tr><td>\n</td><td>10</td><td>LF (Zeilenvorschub)</td></tr>
+ <tr><td>\v</td><td>11</td><td>VT (vertikaler Tabulator)</td></tr>
+ <tr><td>\f</td><td>12</td><td>FF (Papiervorschub)</td></tr>
+ <tr><td>\r</td><td>13</td><td>CR (Wagenrücklauf)</td></tr>
+ <tr><td>\\</td><td>92</td><td>Backslash</td></tr>
+ <tr><td>\xzz</td><td>-</td><td>Zeichen mit Hexcode zz</td></tr>
+ </table>
+				</section>
+			</section>
+			<block><text>Viel Spaß mit DevCont!</text></block>
+		</section>
+	</content>
+</page>

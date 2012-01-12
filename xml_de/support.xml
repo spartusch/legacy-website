@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Support</title>
+		<language>de</language>
+		<description>Support für Apps im App Store</description>
+		<category>main_programs</category>
+	</meta>
+	<content>
+		<section title="Support" auto_toc="no">
+			<block>
+				<text>Für die folgenden Apps im iOS App Store ist Support unter der E-Mail-Adresse </text><link url="mailto:partusch@arcor.de">partusch@arcor.de</link><text> verfügbar:</text>
+			</block>
+			<list>
+				<element><text>Mart's Lists</text></element>
+			</list>
+			<block>
+				<text>Support-Anfragen können in Deutsch und Englisch gestellt werden.</text>
+			</block>
+		</section>
+	</content>
+</page>

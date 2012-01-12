@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Japtra - Japanisch Trainer</title>
+		<language>de</language>
+		<description>Programm zum Abfragen von japanischen Vokabeln und Redewendungen.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="Japtra - Japanisch Trainer">
+			<block><text>Japtra ist ein Japanisch Trainer, der japanische Vokabeln und Redewendungen abfrägt, und sich dadurch sehr gut als Begleitung zu einem Japanischkurs eignet. Das Vokabular von Japtra ist mit einem Texteditor wie Windows Notepad beliebig editier- und erweiterbar, so dass es an jeden Japanischkurs angepasst werden kann! Japtra kann sogar mehrere Kurse gleichzeitig verwalten.</text><text>Das Programm bietet überdies eine vollständige Implementierung der Kana, d.h. der japanischen Silbenalphabete Hiragana und Katakana! Dadurch ist Japtra auf jedem System lauffähig und von einer eventuell nicht installierten japanischen Sprachunterstützung unabhängig. Beim eigentlichen Abfragen gibt es vier verschiedene Abfragemöglichkeiten (Hiragana/Deutsch und Katakana/Deutsch sowie Deutsch/Romaji und Romaji/Deutsch). Außerdem können zu jedem Kurs Vokabellisten erstellt werden, um diese z.B. auszudrucken.</text></block>
+			<block>
+			    <text>Japtra beinhaltet bereits mehrere fertige Japanischkurse. Der neuste und umfangreichste Kurs ist "Japanisch für Schüler" von Olaf Zelesnik. Dieser Kurs ist seit August 2008 in Japtra enthalten, kann für ältere Installationen jedoch auch nachträglich heruntergeladen werden (</text><link url="../download/sz_tu-bs.zip">Japanisch für Schüler</link><text>, 5 KB). Siehe dazu auch den Abschnitt "Hinzufügen eines Kurses" in der </text><link url="japtra_doc.html">Dokumentation</link><text>.</text>
+			</block>
+
+			<screenshot>
+				<thumb width="180" height="107">../graphics/thumbs/screenshots/japtra.jpg</thumb>
+				<large>../graphics/screenshots/japtra.jpg</large>
+				<description>Japtra beim Abfragen von Vokabeln</description>
+			</screenshot>
+
+			<qinfo>
+				<name>Japtra</name>
+				<version>1.0.1</version>
+				<filename>japtra</filename>
+				<features>
+					<f>Benötigt keine externe japanische Sprachunterstützung</f>
+					<f>Vokabeln und Kurse beliebig erweiter- und editierbar</f>
+					<f>Kann HTML-Vokabellisten zusammenstellen (um sie z.B. auszudrucken)</f>
+					<f>Abfragemöglichkeiten Hiragana/Deutsch, Katakana/Deutsch, Deutsch/Romaji, Romaji/Deutsch</f>
+					<f>Detaillierte Fehleranalyse nach jedem Abfragen</f>
+				</features>
+			</qinfo>
+
+			<download>
+			
+				<platform id="windows">
+			
+					<link>
+			
+						<url>../download/japtra101de.exe</url>
+			                        <filesize>242 KB</filesize>
+			
+						<text>direkter Download</text>
+			
+					</link>
+			
+					<link>
+			
+						<url>http://www.freeware.de/download/japtra-japanisch-trainer_8887.html</url>
+			
+						<text>alternativer Download (www.freeware.de)</text>
+			
+					</link>
+			
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

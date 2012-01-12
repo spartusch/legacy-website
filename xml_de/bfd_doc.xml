@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Brainfucked Dokumentation</title>
+		<language>de</language>
+		<description>Dokumentation des Brainfucked Compilers</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Brainfucked Dokumentation">
+			<block><text>Das Folgende ist die Dokumentation des Programms </text><link url="bfd.html">Brainfucked - Brainfuck Compiler</link><text>.</text></block>
+
+			<section title="Inhalt des Downloadpakets">
+				<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Datei</th><th>Beschreibung</th></tr>
+<tr><td>bfd.com</td><td>Der Brainfucked Compiler selbst</td></tr>
+<tr><td>bfd.asm</td><td>Der Quellcode von Brainfucked</td></tr>
+<tr><td>src/</td><td>Dieses Verzeichnis enthält in Brainfuck geschriebene Beispielprogramme</td></tr>
+<tr><td>src/factor.b</td><td>Ein Programm zur Primfaktorzerlegung einer beliebigen positiven Ganzzahl</td></tr>
+<tr><td>src/hello.b</td><td>Gibt "Hello World!" aus</td></tr>
+<tr><td>src/numwarp.b</td><td>Gibt Eingaben von "()-./0123456789abcdef" "schöner" aus</td></tr>
+<tr><td>src/prime.b</td><td>Kann alle Primzahlen von 0 bis 255 ermitteln</td></tr>
+<tr><td>src/quine.b</td><td>Gibt seinen eigenen Quellcode aus</td></tr>
+<tr><td>gpl.txt</td><td><a href="gpl.html">GNU General Public License</a></td></tr>
+<tr><td>liesmich.txt</td><td>Diese Dokumentation auf Deutsch</td></tr>
+<tr><td>readme.txt</td><td>Diese  Dokumentation auf Englisch</td></tr>
+ </table>
+			</section>
+
+			<section title="Die Sprache Brainfuck">
+				<block><text>Jedes Brainfuckprogramm hat ein Array und einen Zeiger, der auf dieses zeigt. Mit acht verschiedenen Befehlen können Array und Zeiger manipuliert werden:</text></block>
+				<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Befehl</th><th>Effekt</th><th>Äquivalent in C</th></tr>
+ <tr><td>+</td><td>Element unter dem Zeiger erhöhen</td><td>++*p;</td></tr>
+ <tr><td>- </td><td>Element unter dem Zeiger verkleinern</td><td>--*p;</td></tr>
+ <tr><td>&gt;</td><td>Zeiger erhöhen</td><td>p++;</td></tr>
+ <tr><td>&lt;</td><td>Zeiger verkleinern</td><td>p--;</td></tr>
+ <tr><td>[</td><td>Beginnt Schleife; Zähler unter Zeiger</td><td>while(*p) {</td></tr>
+ <tr><td>]</td><td>Ende der Schleife</td><td>}</td></tr>
+ <tr><td>.</td><td>ASCII-Code unter Zeiger ausgeben</td><td>putchar(*p);</td></tr>
+ <tr><td>,</td><td>Einlesen und speichern eines Zeichens</td><td>*p=getchar();</td></tr>
+ </table>
+				<block><text>Alle anderen Zeichen werden ignoriert (und können deswegen zur Kommentierung genutzt werden). Alle Elemente des Arrays werden mit 0 initialisiert.</text></block>
+				<block><text>Weitere Informationen über die Sprache Brainfuck gibt es in der </text><link url="http://de.wikipedia.org/wiki/Brainfuck">Wikipedia</link><text>.</text></block>
+			</section>
+
+			<section title="Der Brainfucked Compiler">
+				<section title="Aufruf">
+					<block><text>Der Compiler muss in der Eingabeaufforderung von Windows oder direkt unter MS-DOS gestartet werden. Aufgerufen wird er mit "bfd dateiname.endung". Beim Namen der Quellcodedatei ist wichtig, dass sie dem DOS-Schema "8.3" folgt. Das bedeutet, dass der Dateiname nicht länger als acht Zeichen und die Dateiendung nicht länger als drei Zeichen sein darf. Der Dateiname muss jedoch mindestens zwei Zeichen lang sein und eine Endung muss vorhanden sein! Ist dies nicht der Fall, erzeugt das eine "ERR: File"-Fehlermeldung! Ein korrekter Beispielaufruf wäre also z.B. "bfd src/hello.b" (ohne Anführungszeichen).</text></block>
+				</section>
+
+				<section title="Code-Optimierung">
+					<block><text>Brainfucked verfügt über eine gute Code-Optimierung, um Ihren Brainfuckcode im Bezug auf Größe, aber auch im Bezug auf Ausführungsgeschwindigkeit, zu optimieren.</text></block>
+				</section>
+
+				<section title="Syntax-Check">
+					<block><text>Brainfucked überprüft die Syntax eines Brainfuckprogramms. Ist die Syntax nicht einwandfrei, gibt Brainfucked eine Fehlermeldung oder eine Warnung aus. Siehe Meldungen.</text></block>
+				</section>
+
+				<section title="Kompatibilität">
+					<block><text>Brainfucked verfügt über zwei verschiedene Modi, um Brainfuckcode zu erzeugen.</text></block>
+					<block><text>Im Standardmodus erzeugt die ENTER-Taste beim Einlesen mit dem Brainfuckbefehl "," den Wert 10 (LF). Wird der Wert 10 (LF) mit dem Befehl "." ausgegeben, erzeugt dies einen vollständigen DOS/Windows-Zeilenumbruch (CR LF) in der Ausgabe. Dadurch ist der Standardmodus in der Lage, Brainfuckprogramme, die für Unix-Umgebungen geschrieben wurden, korrekt auszuführen. Da die mit Abstand meisten komplexeren Brainfuckprogramme für diese Umgebungen geschrieben werden, ist aus Kompatibilitätsgründen auch dringend empfohlen, eigene Programme nach diesen Vorgaben zu entwickeln.</text></block>
+					<block><text>Durch die Angabe des Parameters "-n" beim Aufruf von Brainfucked, wird in den sog. "Native Mode" (Beispielaufruf: "bfd -n src/hello.b") gewechselt. In diesem Modus werden unverändert die Tastaturcodes von DOS/Windows eingelesen. Die ENTER-Taste hat dadurch den Wert 13 (CR). Zum Ausgeben eines Zeilenumbruchs muss manuell die Wertfolge 13, 10 (CR LF) ausgegeben werden. Dieser Modus ist in der Lage, speziell für Windows entwickelte Brainfuckprogramme korrekt zu übersetzen. Diese Programme sind jedoch mit sehr vielen Brainfuck-Implementierungen nicht korrekt ausführbar! Für eigene Entwicklungen wird deswegen dringend zum Standardmodus geraten!</text></block>
+					<block><text>In beiden Modi steht jedem Brainfuckprogramm ein Array von 44000 Zellen zur Verfügung, wobei jede Zelle ein Byte groß ist. Das Array ist in jeder Zelle mit 0 initialisiert.</text></block>
+
+					<block><text>Verhalten der Brainfuckbefehle:</text></block>
+					<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Befehl</th><th>Verhalten im Standardmodus</th><th>Verhalten im Native Mode</th></tr>
+ <tr><td>+</td><td>Wert erhöhen</td><td>wie Standardmodus</td></tr>
+ <tr><td>- </td><td>Wert veringern</td><td>wie Standardmodus</td></tr>
+ <tr><td>[</td><td>Schleifenstart</td><td>wie Standardmodus</td></tr>
+ <tr><td>]</td><td>Schleifenende</td><td>wie Standardmodus</td></tr>
+ <tr><td>&gt;</td><td>Zeiger erhöhen</td><td>wie Standardmodus</td></tr>
+ <tr><td>&lt;</td><td>Zeiger verkleinern</td><td>wie Standardmodus</td></tr>
+ <tr><td>.</td><td>Ausgabe eines ASCII-Werts*</td><td>Ausgabe eines ASCII-Werts*</td></tr>
+ <tr><td>,</td><td>Einlesen und Ausgabe des ASCII-Werts*</td><td>Einlesen eines ASCII-Werts*</td></tr>
+ </table>
+					<block><text>* siehe Abschnitt "Kompatibilität"!</text></block>
+				</section>
+
+				<section title="Meldungen">
+					<block><text>Hier folgt nun eine Auflistung aller Meldungen von Brainfucked und mögliche Ursachen für diese Meldungen:</text></block>
+					<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Meldung</th><th>Bedeutung</th><th>mögliche Ursache</th></tr>
+ <tr><td>ERR: File</td><td>Fehler bei Dateiverarbeitung</td><td>Datei nicht gefunden oder kein 8.3-Dateiname</td></tr>
+ <tr><td>ERR: Loop</td><td>schwerer Syntaxfehler</td><td>Mindestens eine Schleife ist falsch z.B. "]["</td></tr>
+ <tr><td>WRN: Range</td><td>möglicher Programmfehler</td><td>Es gibt mehr &lt; als &gt;, falls unbeabsichtigt, sehr wahrscheinlich ein Fehler!</td></tr>
+ <tr><td>File assembled</td><td>Datei erfolgreich kompiliert</td><td>Programm konnte übersetzt werden ;-)</td></tr>
+ </table>
+				</section>
+			</section>
+
+			<section title="Die Lizenzbedingungen">
+				<block><text>Brainfucked ist unter den Bedingungen der </text><link url="gpl.html">GNU General Public License</link><text> veröffentlicht worden. Diese liegt als gpl.txt dem Programm bei.</text></block>
+			</section>
+
+			<block><text>Viel Spaß mit Brainfucked!</text></block>
+		</section>
+	</content>
+</page>

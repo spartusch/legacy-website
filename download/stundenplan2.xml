@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stundenplan.xsl"?>
+
+<stundenplan version="2.0">
+	<titel>Beispiel für einen einfachen Stundenplan</titel>
+	<semester>2008</semester>
+	
+	<Seminar>
+		<veranstaltung>
+			<titel>Hauptseminar</titel>
+			<dozent>Name des Dozenten</dozent>
+			<termin>
+				<tag>mi</tag>
+				<von>10:30</von>
+				<bis>12:20</bis>
+				<ort>Audimax</ort>
+			</termin>
+		</veranstaltung>
+
+		<veranstaltung>
+			<titel>Proseminar</titel>
+			<dozent>Name des Dozenten</dozent>
+			<termin>
+				<tag>do</tag>
+				<von>14:00</von>
+				<bis>16:40</bis>
+				<ort>Audimax</ort>
+			</termin>
+		</veranstaltung>
+	</Seminar>
+
+	<Vorlesung>
+		<veranstaltung>
+			<titel>Vorlesung</titel>
+			<anmerkung>s.t.</anmerkung>
+			<dozent>Name des Professors</dozent>
+			<url>http://www.cip.ifi.lmu.de/~partusch/</url>
+			<termin>
+				<tag>di</tag>
+				<von>14:00</von>
+				<bis>16:00</bis>
+				<ort>Hörsaal am Dienstag</ort>
+			</termin>
+			<termin>
+				<tag>do</tag>
+				<von>14:00</von>
+				<bis>16:00</bis>
+				<ort>Hörsaal am Donnerstag</ort>
+			</termin>
+		</veranstaltung>
+	</Vorlesung>
+
+
+	<konfiguration>
+		<farben farbdruck="0"/>
+		<wochentage>
+			<tag id="mo">Montag</tag>
+			<tag id="di">Dienstag</tag>
+			<tag id="mi">Mittwoch</tag>
+			<tag id="do">Donnerstag</tag>
+			<tag id="fr">Freitag</tag>
+		</wochentage>
+		<anzeige>
+		    <sws-anzeigen>1</sws-anzeigen>
+		    <hervorhebung>1</hervorhebung>
+		</anzeige>
+		<zeiten zeige-alle="0">
+		    <intervall sichtbar="1">0</intervall>
+			<beginn>8</beginn>
+			<ende>20</ende>
+		</zeiten>
+	</konfiguration>
+</stundenplan>

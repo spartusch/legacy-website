@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>DevCont - Documentation</title>
+		<language>en</language>
+		<description>Documentation of the program DevCont</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="DevCont - Documentation">
+			<block><text>The following is the documentation of the program </text><link url="devcont.html">DevCont - Developer's Connector</link><text>.</text></block>
+
+			<section title="Introduction">
+				<block><text>DevCont is a program with many possibilities. It is capable of both TCP/IP and UDP/IP. Furthermore it has three different modes to send and receive data, which are described more exactly in the section "The different modes". Due to this versatility DevCont addresses itself to advanced users or developers.</text></block>
+				<block><text>DevCont has two main fields of application:</text></block>
+				<list type="ordered">
+					<element><text>DevCont enables developers to test the behavior of their server applications in a very simple way without the necessity to specially write a client for this task.</text></element>
+					<element><text>It also gives developers the possibility of simply testing protocols before they develop applications for them. Nothing is as annoying, as if one wrote several-day-long at an application to only find out that it doesn't work properly because one misunterstood a RFC.</text></element>
+				</list>
+				<block><text>In addition also "normal" users can use DevCont to improve their knowledge of protocols used on the internet or simply to play around.</text></block>
+			</section>
+
+			<section title="The Interface">
+				<block><text>The graphical user interface should be easy to understand but let's explain it nevertheless. At the left side above the output field is an input field for the IP or the name of the target computer. Besides is a input field for the port, to which to connect, followed by the button "connect", which establishes a connection with the target, the button "disconnect" closes this connection and finally there's an empty input field for general inputs. If one writes something in this field, one only needs to press ENTER in order to send the input. Below these is a field for outputs and below that is the status bar.</text></block>
+			</section>
+
+			<section title="The Settings">
+				<block><text>Settings can be set in two different ways:</text></block>
+				<list type="ordered">
+					<element>
+						<text>Click on the input field, enter the option you want to change and press ENTER. That's it!</text><text>DevCont knows the following options (input without the quotes in each case but with colon!):</text>
+						<list>
+							<element><text>":tcp" to set TCP as current protocol</text></element>
+							<element><text>":udp" to set UDP as current protocol</text></element>
+							<element><text>":bin" or ":binary" to switch to binary mode</text></element>
+							<element><text>":adv" or ":advanced" to switch to advanced mode</text></element>
+							<element><text>":ascii" to switch to ASCII mode</text></element>
+							<element><text>":scheme x" to change color scheme; x is the number of the scheme (1-9)</text>
+								<block><text>Table of color schemes:</text></block>
+								<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Number:</th><th>Textcolor:</th><th>Background:</th></tr>
+ <tr><td>1</td><td>White</td><td>Blue</td></tr>
+ <tr><td>2</td><td>Green</td><td>Black</td></tr>
+ <tr><td>3</td><td>White</td><td>Black</td></tr>
+ <tr><td>4</td><td>Yellow</td><td>Red</td></tr>
+ <tr><td>5</td><td>Black</td><td>Grey</td></tr>
+ <tr><td>6</td><td>Black</td><td>White</td></tr>
+ <tr><td>7</td><td>Yellow</td><td>Black</td></tr>
+ <tr><td>8</td><td>Black</td><td>Yellow</td></tr>
+ <tr><td>9</td><td>Yellow</td><td>Blue</td></tr>
+ </table>
+							</element>
+							<element><text>":winsock" to obtain winsock information</text></element>
+							<element><text>":stats" to view connection statistics</text></element>
+						</list>
+					</element>
+					<element><text>Settings may also be changed by clicking the status bar. The current protocol as well as the current mode used can be changed by clicking the appropriate parts of the status bar, that are the parts showing the coresponding information. Click the "Sent/Received Bytes"-area and a connection statistics will be displayed.</text></element>
+				</list>
+				<block><text>Hit F1 or use command ":help" to dislpay (quick) help within DevCont.</text><text>IMPORTANT: Options may only be changed as long as there's currently no connection established!</text></block>
+			</section>
+
+ 			<section title="The different Modes">
+				<section title="ASCII mode">
+					<block><text>This is the standard mode. It is perfectly suitable for protocols like SMTP or POP3. Sends the contents of the input field as plain ASCII text but CR LF characters are attached to each individual transfer. That's in fact the format most Internet protocols use.</text></block>
+				</section>
+
+				<section title="Binary mode">
+					<block><text>In binary mode the hexadecimal codes of each individual byte is entered in the input field. It is only transmitted what is entered. Likewise only the hexcodes of the received bytes are displayed. This mode is meant for connections/protocols, which do not transmit plain and printable ASCII characters (e.g. SOCKS).</text></block>
+				</section>
+
+				<section title="Advanced mode">
+					<block><text>This is actually the ASCII mode with items of the binary mode. Printable ASCII characters are transmitted but nothing is automatically attached. The special thing about this mode is the support of escape sequences known from the programming languages C/C++. You can, with the aid of these escape sequences, mix the printable ASCII charactes with non printable ones (Note: In order to make a backslash, you must use the \\ escape sequence).</text></block>
+					<block><text>The advanced mode supports the following escape sequences:</text></block>
+					<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Sequence:</th><th>Decimal value:</th><th>ASCII character:</th></tr>
+ <tr><td>\a</td><td>7</td><td>BEL</td></tr>
+ <tr><td>\b</td><td>8</td><td>BS</td></tr>
+ <tr><td>\t</td><td>9</td><td>HT</td></tr>
+ <tr><td>\n</td><td>10</td><td>LF</td></tr>
+ <tr><td>\v</td><td>11</td><td>VT</td></tr>
+ <tr><td>\f</td><td>12</td><td>FF</td></tr>
+ <tr><td>\r</td><td>13</td><td>CR</td></tr>
+ <tr><td>\\</td><td>92</td><td>Backslash</td></tr>
+ <tr><td>\xzz</td><td>-</td><td>Character with hexcode zz</td></tr>
+ </table>
+				</section>
+			</section>
+			<block><text>Have much fun with DevCont!</text></block>
+		</section>
+	</content>
+</page>

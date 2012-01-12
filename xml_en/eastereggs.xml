@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>How to find Easter Eggs</title>
+		<language>en</language>
+		<description>Hints and tips to find the easter eggs hidden in my programs</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="How to find Easter Eggs">
+			<block><text>In nearly all of my programs so called Easter Eggs are hidden. Easter Eggs are undocumented features in e.g. software, which display certain text or reveal photos, when found and activated. But usually Easter Eggs are quite good hidden and therefore somtimes hard to find.</text><text>Thus I decided to provide you with some disguised tips where and how to find Easter Eggs in my programs. Below is a list of all programs with hidden Easter Eggs along with a tip. Have fun searching the Eggs!</text></block>
+			<easter_egg>
+				<program url="devcont.html">DevCont</program>
+				<hint>A name commands the address.</hint>
+			</easter_egg>
+
+			<easter_egg>
+				<program url="japtra.html">Japtra</program>
+				<hint>Beauty in the wrong language is a promise of love.</hint>
+			</easter_egg>
+
+			<easter_egg>
+				<program url="ptinfo.html">PTInfo Munich</program>
+				<hint>The nonsensical return is a joke.</hint>
+			</easter_egg>
+
+		</section>
+	</content>
+</page>

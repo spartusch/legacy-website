@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Japtra - Japanese Trainer</title>
+		<language>en</language>
+		<description>Program to ask you Japanese words and phrases to assist you while learning Japanese.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="Japtra - Japanese Trainer">
+			<block><text>Japtra asks you Japanese words and phrases to assist you while learning the language. Its vocabulary is user-defined, extendable and editable using a simple text-editor like Windows Notepad. Thus Japtra allows you to adapt it to any course. Furthermore Japtra is capable of managing several courses. Therefore it's perfectly suitable for usage together with a Japanese course in school or university.</text><text>It even features a complete implementation of kana, the Japanese syllabaries hiragana and katakana. This makes Japtra independent from any external Japanese language support, allowing it to be run on any Windows operating system.</text><text>When actually using Japtra, it offers you four different modes to ask the words (Hiragana/English and Katakana/English as well as English/Romaji and Romaji/English). In addition Japtra allows you to dynamically create nice vocabulary lists for each course.</text></block>
+
+			<screenshot>
+				<thumb width="180" height="107">../graphics/thumbs/screenshots/japtra.jpg</thumb>
+				<large>../graphics/screenshots/japtra.jpg</large>
+				<description>Japtra asking Japanese words</description>
+			</screenshot>
+
+			<qinfo>
+				<name>Japtra</name>
+				<version>1.0.1</version>
+				<filename>japtra</filename>
+				<features>
+					<f>Doesn't need any external Japanese language support</f>
+					<f>Vocabulary and courses are extendable and editable</f>
+					<f>Creates HTML-vocabulary lists (e.g. for printing)</f>
+					<f>Four modes: Hiragana/English, Katakana/English, English/Romaji, Romaji/English</f>
+					<f>Detailed error analysis after each run</f>
+				</features>
+			</qinfo>
+
+			<download>
+				<platform id="windows">
+					<link>
+						<url>../download/japtra101en.exe</url>
+						<text>japtra101en.exe</text>
+						<filesize>242 KB</filesize>
+					</link>
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

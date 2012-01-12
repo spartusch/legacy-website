@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>PTInfo München - Changelog</title>
+		<language>de</language>
+		<description>Changelog (Versionshistorie) von PTInfo München</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="PTInfo München Changelog">
+			<block><text>Im Folgenden sind alle Veränderungen gegenüber Vorgängerversion von </text><link url="ptinfo.html">PTInfo München</link><text> aufgelistet.</text></block>
+
+			<section title="Version 0.0.1 (30.10.2005)">
+				<list>
+					<element><text>Erstveröffentlichung</text></element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

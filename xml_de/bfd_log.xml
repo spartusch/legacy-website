@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Brainfucked - Changelog</title>
+		<language>de</language>
+		<description>Changelog (Versionshistorie) von Brainfucked</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Brainfucked Changelog" auto_toc="no">
+			<block>
+				<text>Im Folgenden sind alle Veränderungen gegenüber Vorgängerversion von </text><link url="bfd.html">Brainfucked</link><text> aufgelistet.</text>
+			</block>
+
+			<section title="Version 1.0.0 (01.05.2005)">
+				<list>
+					<element>Code-Optimierung noch weiter verbessert</element>
+					<element>Brainfuckprogramme haben jetzt ein 44.000 Bytes großes Array (macht -o überflüssig)</element>
+					<element>Verwendung von while statt von do-while-Schleifen</element>
+					<element>Parameter -n und "native mode" hinzugefügt</element>
+					<element>Unterstützung von für Unix geschriebene Brainfuckprogramme</element>
+					<element>Neue Fehlerbehandlung</element>
+					<element>Neue Beispielprogramme</element>
+				</list>
+			</section>
+
+			<section title="Version 0.1.0 (23.02.2005)">
+				<list>
+					<element>Komplett überarbeitet und neu geschrieben</element>
+					<element>Starke Reduzierung der Größe (jetzt 779 Byte, war 1067 Byte)</element>
+					<element>Code-Optimierung um add und sub erweitert / teilweise neue Opcodes</element>
+					<element>Aus Kompatibilitätsgründen standardmäßg 9999 Byte großes Array</element>
+					<element>Parameter -o hinzugefügt für optimierte Arraygröße wie bisher</element>
+					<element>BFD Xtreme Edition 0.0.1 testweise hinzugefügt</element>
+					<element>Überarbeitete demo.b und liesmich.txt, neue Datei readme.txt</element>
+				</list>
+			</section>
+
+			<section title="Version 0.0.2 (25.01.2002)">
+				<list>
+					<element>Beendet sich mit Returncode</element>
+					<element>Läuft sowohl unter Windows 9x als auch Windows NT/2000/XP, sowie MS-DOS</element>
+					<element>Kleinere Verbesserungen</element>
+				</list>
+			</section>
+
+			<section title="Version 0.0.1">
+				<list>
+					<element>Erstveröffentlichung</element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

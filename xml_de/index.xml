@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Stefan Partusch - Startseite</title>
+		<language>de</language>
+		<description>Freeware und 'Open Source'-Programme; persönliche Webseite von Stefan Partusch</description>
+		<category>main</category>
+	</meta>
+	<content>
+		<section title="Herzlich willkommen">
+			<block><text>Willkommen auf der Homepage von Stefan Partusch. Schön, dass Sie hierher gefunden haben!</text><text>Was Sie hier genau finden können, verrät Ihnen das </text><link url="contents.html">Inhaltsverzeichnis</link><text>. Der Schwerpunkt liegt auf den von mir erstellten </text><link url="programs.html">Programmen</link><text>, die hier kostenlos angeboten werden. Viele davon sind "Open Source", also Programme bei denen der Quellcode der Allgemeinheit zur freien Verfügung steht. Alles auf dieser Website ist mindestens Freeware und darf frei verwendet werden. Die Benutzung der Programme erfolgt immer auf eigene Gefahr. Wenn Sie möchten, können Sie mir auch gerne eine E-Mail schreiben. Die E-Mail-Adresse dazu ist auf der </text><link url="about.html">Über</link><text>-Seite zu finden.</text><text>Nun aber viel Spaß beim Stöbern auf meiner Website!</text></block>
+			<section title="Veröffentlichungen und Aktualisierungen">
+				<list>
+					<element>
+						<text>14.12.2011 - Veröffentlichung von </text>
+						<link url="martslists.html">Mart's Lists</link><text> im App Store</text>
+					</element>
+					<element>
+						<text>17.09.2011 - Veröffentlichung meiner </text>
+						<link url="publications.html">Magisterarbeit und Präsentationen</link><text>, sowie von </text>
+						<link url="nasfvi.html">NASfVI</link>
+					</element>
+					<element>
+						<text>02.09.2008 - Veröffentlichung von </text>
+						<link url="stundenplan.html">Stundenplan XML+XSLT</link><text> Version 2.0</text>
+					</element>
+					<element>
+						<text>13.08.2008 - Japanischkurs "Japanisch für Schüler" zu </text>
+						<link url="japtra.html">Japtra - Japanisch Trainer</link><text> hinzugefügt</text>
+					</element>
+					<element>
+						<text>14.10.2006 - Eine Modifikation von </text>
+						<link url="bfd.html">Brainfucked</link><text> namens "Prainfucked" hinzugefügt</text>
+					</element>
+					<element>
+						<text>30.10.2005 - Veröffentlichung von </text>
+						<link url="ptinfo.html">PTInfo München für Handys</link><text> Version 0.0.1</text>
+					</element>
+					<element>
+						<text>14.09.2005 - Neuen Abschnitt </text>
+						<link url="docs.html">Dokumente</link><text> hinzugefügt</text>
+					</element>
+					<!--<element>
+						<text>04.09.2005 - Hintergrundbilder entfernt und neue </text><link url="gpl.html">GPL</link>
+						<text>-betonte </text><link url="copyright.html">Lizenzbestimmungen</link>
+					</element>-->
+					<element>
+						<text>07.08.2005 - Unterstützung für die Betrachtung der Website mit tragbaren Geräten wie Handys</text>
+					</element>
+					<!--<element>
+						<text>26.07.2005 - Ein </text><link url="../rss_de.xml">RSS-Feed</link>
+						<text> mit detailierteren Neuigkeiten dieser Seite ist verfügbar</text>
+					</element>-->
+					<element>
+						<text>01.05.2005 - Veröffentlichung von </text>
+						<link url="bfd.html">Brainfucked</link><text> Version 1.0.0</text>
+					</element>
+					<element>
+						<text>23.02.2005 - Veröffentlichung von </text>
+						<link url="bfd.html">Brainfucked</link><text> Version 0.1.0</text>
+					</element>
+					<element>
+						<text>04.10.2004 - Neues Design (XHTML 1.0 Strict und CSS2) und überarbeiteter Inhalt</text>
+					</element>
+					<element>
+						<text>22.07.2004 - Erweiterung für </text><link url="statdze.html">StatDZE</link>
+						<text> 1.0.0 von Christian Hammerschmidt</text>
+					</element>
+					<element>
+						<text>01.07.2004 - Veröffentlichung von </text>
+						<link url="statdze.html">StatDZE - Wie lange noch?</link><text> Version 1.0.0 mit Quellcode!</text>
+					</element>
+					<!--<element>
+						<text>27.02.2004 - Neues Hintergrundbild "Einsatzgeschwader 4" veröffentlicht</text>
+					</element>-->
+					<element>
+						<text>06.01.2004 - Veröffentlichung von </text>
+						<link url="japtra.html">Japtra - Japanisch Trainer</link><text> Version 1.0.1</text>
+					</element>
+					<!--<element>
+						<text>28.09.2003 - Neue Hintergrundbilder "Verschiedene Landschaften" hinzugefügt</text>
+					</element>
+					<element>
+						<text>27.07.2003 - Neues Hintergrundbild "Taiyou" hinzugefügt</text>
+					</element>-->
+					<element>
+						<text>07.11.2002 - Veröffentlichung von </text>
+						<link url="japtra.html">Japtra - Japanisch Trainer</link><text> Version 1.0.0</text>
+					</element>
+					<element>
+						<text>19.09.2002 - Veröffentlichung von </text>
+						<link url="japtra.html">Japtra - Japanisch Trainer</link><text> 0.0.1 (Beta)</text>
+					</element>
+					<element>
+						<text>27.06.2002 - Veröffentlichung von </text>
+						<link url="devcont.html">DevCont - Developer's Connector</link><text> 1.0.1</text>
+					</element>
+					<element>
+						<text>23.06.2002 - Veröffentlichung von </text>
+						<link url="devcont.html">DevCont</link><text> 1.0.0 (TCP/UDP Connector 1.3.0)</text>
+					</element>
+					<element>
+						<text>25.01.2002 - Veröffentlichung von </text>
+						<link url="bfd.html">Brainfucked</link><text> 0.0.2 unter der </text>
+						<link url="gpl.html">GPL</link><text>!</text>
+					</element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Japtra Dokumentation</title>
+		<language>de</language>
+		<description>Dokumentation des Programms Japtra</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Japtra Dokumentation">
+			<block><text>Das Folgende ist die Dokumentation des Programms </text><link url="japtra.html">Japtra - Japanisch Trainer</link><text>.</text></block>
+
+			<section title="Einleitung">
+				<block><text>Japtra ist als Begleitung zu Japanischkursen gedacht und frägt japanische Vokabeln und Redewendungen ab. Es bietet die Möglichkeit Vokabellisten zu erstellen und beherrscht komplett Hiragana und Katakana.</text></block>
+			</section>
+
+			<section title="Hinzufügen eines Kurses">
+				<block><text>Ein Japanischkurs für Japtra besteht aus mindestens einer Jat-Datei und einer weiteren. Die Jat-Datei (z.B. "kurs.jat") enthält allgemeine Informationen über den Japanischkurs und die andere Datei (deren Name ist vollkommen egal und kann beliebig sein) die puren Daten für die Vokabeln des Kurses.</text></block>
+
+				<block><text>Und so geht es:</text></block>
+				<list type="ordered">
+					<element><text>Die Zip-Datei des Kurses entpacken.</text></element>
+					<element><text>Die beiden Dateien in den Ordner, in welchen Japtra installiert wurde, verschieben (das ist der Ordner mit der Datei "japtra.exe").</text></element>
+					<element><text>Japtra neu starten.</text></element>
+				</list>
+				<block><text>Das war's auch schon. Der neue Kurs kann nun in Japtra ausgewählt werden.</text></block>
+			</section>
+
+			<section title="Einen neuen Kurs erstellen">
+				<block><text>Japtra ist beliebig erweiterbar, d.h. du kannst auch deinen eigenen Japanischkurs erstellen oder einen bestehenden für Japtra umsetzen. Alles was man dazu braucht, ist ein ganz normaler Texteditor wie z.B. Windows Notepad (unter Windows aufrufen über Start -> Programme -> Zubehör -> Editor). Mit einem solchen Texteditor muss nur noch eine neue Textdatei mit beliebigem Namen erstellt und die Vokabeln eintragen werden und der neue Kurs ist fast fertig. Jede Zeile in dieser Datei, die mit einem * (Sternchen) anfängt, gilt als Kommentar und wird von Japtra komplett ignoriert. Alle anderen Zeilen müssen leer sein oder Vokabelinformationen enthalten.</text></block>
+
+				<block><text>Das Format der Vokabeleinträge sieht folgendermaßen aus:</text><text>Romaji-Schreibung; Deutsche Bedeutung; Romaji-Level; Hiragana-Level; Katakana-Level;</text><text>(Achtung: Die Abtrennung der einzelnen Abschnitte einer Zeile durch Strichpunkte ist sehr wichtig!)</text></block>
+
+				<block><text>Dabei ist "Romaji-Schreibung" der Eintrag auf Japanisch. Jedoch mit "unseren" Zeichen; "Deutsche Bedeutung" der Eintrag auf Deutsch; "Romaji-Level" der Level bei dem der Eintrag bei Romaji-Übungen erscheinen soll; "Hiragana-Level" der Level bei dem der Eintrag bei Hiragana-Deutsch erscheinen soll und "Katakana-Level" der Level bei dem der Eintrag bei Katakana-Deutsch erscheinen soll;</text></block>
+
+				<block><text>Für den Romaji-Abschnitt und den Abschnitt mit der deutschen Bedeutung gilt:</text></block>
+				<list>
+					<element><text>Mehrere gleichberechtigte Bedeutungen werden durch Kommata getrennt.</text></element>
+					<element><text>Kommata innerhalb von Anführungszeichen (") werden ignoriert.</text></element>
+					<element><text>Kommentare werden durch "|" abgetrennt. Alles nach einem "|" gilt als Kommentar!</text></element>
+					<element><text>Sollen nur bestimmte Teile einer Bedeutung geprüft werden, müssen diese in "[" und "]" eingeschlossen werden.</text></element>
+					<element><text>Runde Klammern "(" und ")" können eingesetzt werden, um anzuzeigen, dass bestimmte Buchstaben nicht gesprochen werden.</text></element>
+				</list>
+
+				<block><text>Für die verschiedenen Level gilt:</text></block>
+				<list>
+					<element><text>0 bedeutet, dass der Eintrag in dieser Kategorie nicht anzeigt wird.</text></element>
+					<element>
+						<text>Ansonsten kann man alle möglichen Levelbezeichnungen verwenden. Diese werden eingelesen und sortiert. Gültige Levelbezeichnungen sind z.B. nur Zahlen, Zahlen und Buchstaben oder Zahlen durch Zeichen getrennt.</text><text>Mögliche Levelbezeichnungen sind z.B.:</text>
+						<list>
+							<element><text>1, 2, 3, 4, 5, ...</text></element>
+							<element><text>1a, 1b, 2a, 2b, 3a, 3b, ...</text></element>
+							<element><text>1.1, 1.2, 2.2, 2.3, 3.3, ...</text></element>
+						</list>
+					</element>
+				</list>
+
+				<block><text>Beispieleinträge für Vokabeln:</text></block>
+				<list>
+					<element><text>hai;     ja;    1; 1; 1;</text><text>eine "Standardzeile".</text></element>
+					<element><text>aôi;    blau, grün;  1; 0; 0;</text><text>Eine japanische und zwei deutsche Bedeutungen.</text></element>
+					<element><text>osake;   Sake |(Reiswein);    2a; 1; 0;</text><text>Sake mit dem Kommentar "(Reiswein)". Romaji Level ist 2a, Hiragana Level 1 und kein Katakana-Level.</text></element>
+					<element><text>"Hajimemashite, dôzo yoroshiku"; "Nett, Sie kennen zu lernen";  1; 0; 0;</text><text>Das Komma wird ignoriert, es gibt nur eine einzige Bedeutung.</text></element>
+					<element><text>Genki.desu;   [Mir] [geht]'s [gut];  2; 3; 3;</text><text>In der deutschen Bedeutung muss "mir", "geht" und "gut" vorkommen.</text></element>
+					<element><text>hônya; der [Buchhändler], die [Buchhandlung]; 1.2; 1a; 0;</text></element>
+				</list>
+
+				<block><text>Bei der Korrektur von Eingaben werden nur Zeichen und Zahlen berücksichtigt! Alles andere wird ignoriert. Zeichen wie ô oder é werden zu o oder e umgewandelt (es sei denn die Option "Längungszeichen beachten" wurde ausgewählt).</text></block>
+
+				<block><text>Nun muss nur noch eine Datei mit der Endung jat erstellt werden. Also z.B. mit dem Dateinamen "kurs.jat". In der ersten Zeile der Datei muss "[Japtra]" stehen, gefolgt von Einträgen im Format "Bezeichnung = Wert".</text></block>
+				<block><text>Folgende Einträge müssen vorhanden sein:</text></block>
+				<list>
+					<element><text>Name - Der Name des Kurses</text></element>
+					<element><text>URL - Eine beliebige URL, z.B. die Adresse des Kurses</text></element>
+					<element><text>LangID - Die Sprache des Kurses. DE für Deutsch und EN für Englisch.</text></element>
+					<element><text>LvlText - Die Bezeichnung der versch. Level im Kurs</text></element>
+					<element><text>File - Die Datei mit den Vokabeln</text></element>
+				</list>
+
+				<block><text>Der Inhalt einer solchen Datei könnte z.B. so aussehen:</text></block>
+				<pre xmlns="http://www.w3.org/1999/xhtml">[Japtra]
+Name	= MangaSphere
+URL	= http://www.mangasphere.de
+LangID	= DE
+LvlText	= Wochenende
+File	= de_mangasp.jvl </pre>
+			</section>
+			<block><text>Viel Spaß mit Japtra!</text></block>
+		</section>
+	</content>
+</page>

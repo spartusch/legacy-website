@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Lizenzen und Urheberrecht</title>
+		<language>de</language>
+		<description>Rechtliches bzgl der Inhalte</description>
+		<category>main_copyright</category>
+	</meta>
+	<content>
+		<section title="Lizenzen und Urheberrecht" auto_toc="no">
+			<!--<block><text>Version 2, September 2005</text></block>-->
+
+			<section title="Allgemein">
+				<block><text>Diese Website wird kostenlos angeboten und unterliegt keinen besonderen Bestimmungen. Dies bedeutet, dass die Website selbst und alle Inhalte vom Urheberrecht geschützt und das geistige Eigentum von Stefan Partusch sind, sofern nichts anderes explizit angegeben ist. Falls Sie spezielle Fragen haben sollten, so können Sie auf der </text><link url="about.html">Über</link><text>-Seite meine Kontaktinformationen finden.</text></block>
+			</section>
+
+			<section title="Lizenzbedingungen der Programme">
+				<block><text>Sofern hier oder an anderer Stelle dieser Website für bestimmte Programme nicht anders vermerkt, sind alle hier angebotenen Programme freie Software. Sie unterliegen entweder den Bestimmungen der </text><link url="gpl.html">GNU General Public License</link><text> oder den Bestimmungen der </text><link url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License Version 2.0</link><text>.</text></block>
+			</section>
+
+			<section title="Spezielle Lizenzbedingungen einiger Programme">
+				<section title='Lizenzbedingungen der Programme "DevCont" und "Japtra"'>
+					<block><text>Für die Programme "</text><link url="devcont.html">DevCont</link><text>" und "</text><link url="japtra.html">Japtra</link><text>" treffen die im Folgenden genannten Bestimmungen zu. Der Begriff "Autor" bezieht sich folgend immer auf Stefan Partusch.</text></block>
+					<list type="ordered">
+						<element><text>Die Programme "</text><link url="devcont.html">DevCont</link><text>" und "</text><link url="japtra.html">Japtra</link><text>" werden vom Autor kostenfrei zur Verfügung gestellt.</text></element>
+						<element><text>Sie dürfen frei verwendet und bliebig oft reproduziert werden.</text></element>
+						<element><text>Sie dürfen jedoch in keiner Weise verändert werden. Dies betrifft besonders Hinweise auf Copyright, Urheberrecht und Autor.</text></element>
+						<element><text>In jedem Fall bleiben alle Rechte beim Autor. Die Programme bleiben das geistige Eigentum des Autors.</text></element>
+						<element><text>Weiterverbreitung und Weitergabe der Programme ist nicht nur erlaubt, sondern auch erwünscht, sofern die Inhalte unverändert und unbeschädigt sind.</text></element>
+						<element><text>Zwar unternimmt der Autor größte Anstrengungen, um die Qualität der Programme zu sichern, dennoch besteht keinerlei Anspruch auf Fehlerfreiheit und Funktionalität der Programme.</text></element>
+						<element><text>Sollte es zu Datenverlusten oder Schäden anderer Art durch die Verwendung eines Programmes kommen, so erwachsen daraus keinerlei Ansprüche gegenüber dem Autor.</text></element>
+						<element><text>Da die Programme kostenlos zur Verfügung gestellt werden, wird keinerlei Garantie gewährt. Die Verwendung erfolgt immer auf eigene Gefahr!</text></element>
+					</list>
+				</section>
+
+				<section title='Lizenzbedingungen des Programms "StatDZE"'>
+					<block><text>Das Programm "</text><link url="statdze.html">StatDZE</link><text>" unterliegt den Bestimmungen der </text><link url="statdze_license.html">StatDZE-Lizenz</link><text>.</text></block>
+				</section>
+			</section>
+		</section>
+	</content>
+</page>

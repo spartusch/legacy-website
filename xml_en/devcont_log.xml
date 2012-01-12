@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>DevCont - Changelog</title>
+		<language>en</language>
+		<description>Changelog (versions history) of DevCont</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="DevCont - Changelog" auto_toc="no">
+			<block><text>The following lists all changes and improvements to all versions of </text><link url="devcont.html">DevCont</link><text>.</text></block>
+
+			<section title="Version 1.0.1 (2002-06-27)">
+				<list>
+					<element><text>Small bugfix (settings weren't loaded)</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.0.0 (DevCont - 2002-06-23)">
+				<list>
+					<element><text>New name ("DevCont" instead of "TCP/UDP Connector")</text></element>
+					<element><text>Position and size of the window is saved</text></element>
+					<element><text>Color schemes</text></element>
+					<element><text>Made the status bar clickable</text></element>
+					<element><text>Some minor modifications</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.2.2 (2002-05-21)">
+				<list>
+					<element><text>Knows 20 "well known ports" now</text></element>
+					<element><text>Small bug in binary mode fixed</text></element>
+					<element><text>Some minor modifications</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.2.1">
+				<list>
+					<element><text>Some minor modifications</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.2.0 (2002-04-05)">
+				<list>
+					<element><text>New advanced mode added!</text></element>
+					<element><text>Settings are saved upon program termination</text></element>
+					<element><text>Bugfix: now works on Windows 98</text></element>
+					<element><text>Some improvements</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.1.0">
+				<list>
+					<element><text>New experimental binary mode introduced</text></element>
+					<element><text>Statusbar: status, connection, mode, protocol, sent/received bytes</text></element>
+					<element><text>Many, many improvements</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.0.2 (2002-02-14)">
+				<list>
+					<element><text>Received Unix and Mac linebreaks are shown correctly</text></element>
+					<element><text>Modified context menu of the right mouse-key</text></element>
+					<element><text>Minor improvements</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.0.1 (TCP/UDP Connector - 2002-02-05)">
+				<list>
+					<element><text>First release</text></element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

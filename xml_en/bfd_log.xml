@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Brainfucked - Changelog</title>
+		<language>en</language>
+		<description>Changelog (versions history) of Brainfucked</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Brainfucked - Changelog" auto_toc="no">
+			<block><text>The following lists all changes and improvements to all versions of </text><link url="bfd.html">Brainfucked</link><text>.</text></block>
+
+			<section title="Version 1.0.0 (2005-05-01)">
+				<list>
+					<element><text>Code optimization improved and extended</text></element>
+					<element><text>Brainfuck programs now have an array of 44,000 bytes available (obsoletes -o)</text></element>
+					<element><text>Use of while-loops instead of do-while-loops</text></element>
+					<element><text>Parameter -n and "native mode" added</text></element>
+					<element><text>Support of brainfuck programs written for Unix</text></element>
+					<element><text>New handling of errors and warnings</text></element>
+					<element><text>New examples to demonstrate brainfuck</text></element>
+				</list>
+			</section>
+
+			<section title="Version 0.1.0 (2005-02-23)">
+				<list>
+					<element><text>Completely rewritten</text></element>
+					<element><text>Much smaller size (now 779 bytes, was 1067 bytes)</text></element>
+					<element><text>Code optimization with add and sub enhanced / some new opcodes</text></element>
+					<element><text>Default array size now 9999 bytes, greater compatibility</text></element>
+					<element><text>Argument -o added to optimize array size like in older versions</text></element>
+					<element><text>BFD Xtreme Edition 0.0.1 added</text></element>
+					<element><text>Revised demo.b and liesmich.txt, new file readme.txt</text></element>
+				</list>
+			</section>
+
+			<section title="Version 0.0.2 (2002-01-25)">
+				<list>
+					<element><text>Terminates with a return code</text></element>
+					<element><text>Runs on Windows 9x and Windows NT/2k/XP and on MS-DOS</text></element>
+					<element><text>Minor improvements</text></element>
+				</list>
+			</section>
+
+			<section title="Version 0.0.1">
+				<list>
+					<element><text>First release</text></element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

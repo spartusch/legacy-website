@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>DevCont - Developer's Connector</title>
+		<language>en</language>
+		<description>Program to establish connections with any computer and any service to exchange data</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="DevCont - Developer's Connector">
+			<block><text>DevCont allows users to establish connections with any computer and any service to exchange data. It offers three different modes of sending and receiving data to do so. Each with different advantages. These modes are the "ASCII-mode" (best for text based protocols like SMTP or POP3), the "binary mode" (best used for protocols like SOCKS, which use non-printable characters) and the so called "advanced mode", which is basically a mix of ASCII and binary mode. All three modes can be used with TCP/IP and UDP/IP connections.</text></block>
+
+			<block><text>DevCont is thought for two main fields of application:</text></block>
+			<list>
+				<element><text>DevCont enables developers to test the behavior of their server applications in a very simple way, without the necessity to specially write a client for this task.</text></element>
+				<element><text>It also gives developers the possibility to test protocols before developing applications using them. Nothing is more annoying, than having wasted time and code, because one misunderstood a RFC or another specification.</text></element>
+			</list>
+
+			<block><text>Nevertheless DevCont is also very interesting for non programming users. You might, for instance, use DevCont to manually send or receive e-mails, and thus learn in a playful way how certain internet technologies actually work. You'll be surprised how simple they are!</text></block>
+
+			<screenshot>
+				<thumb width="211" height="129">../graphics/thumbs/screenshots/devcont.jpg</thumb>
+				<large>../graphics/screenshots/devcont.jpg</large>
+				<description>DevCont's graphical user interface</description>
+			</screenshot>
+
+			<qinfo>
+				<name>DevCont</name>
+				<version>1.0.1</version>
+				<filename>devcont</filename>
+				<features>
+					<f>Establishes connections with any computer and any service to exchange data</f>
+					<f>Ability to use TCP/IP and UDP/IP connections</f>
+					<f>Three modes to send/receive data: ASCII-, Advanced- and binary mode</f>
+					<f>Concise graphical user interface providing all relevant information</f>
+				</features>
+			</qinfo>
+
+			<download>
+				<platform id="windows">
+					<link>
+						<url>../download/devcont.zip</url>
+						<filesize>18 KB</filesize>
+						<text>Direct Download</text>
+					</link>
+					<link>
+						<url>http://www.programmersheaven.com/download/21657/download.aspx</url>
+						<text>Download at www.programmersheaven.com</text>
+					</link>
+					<link>
+						<url>http://www.freeware.de/download/devcont-developers-connector_6951.html</url>
+						<text>Download at www.freeware.de</text>
+					</link>
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

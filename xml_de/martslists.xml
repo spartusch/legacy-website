@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Mart's Lists</title>
+		<language>de</language>
+		<description>Eine kleine aber feine App, um Listen zu erstellen.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="Mart's Lists are smart lists">
+			<block><text>Mart's Lists ermöglicht es einfach Listen zu erstellen, zu verwalten und durchzublättern. Es erlaubt eine schnelle und effiziente Auswahl und Entfernung von Einträgen. Wenn Sie Mart's Lists beim nächsten Einkauf verwenden, können Sie die entsprechenden Einträge schnell auswählen und entfernen, während Sie den Gegenstand in Ihren Einkaufswagen legen!</text></block>
+
+			<screenshot>
+				<thumb width="118" height="170">../graphics/thumbs/screenshots/martslists_de_1.jpg</thumb>
+				<large>../graphics/screenshots/martslists_de_1.jpg</large>
+				<description>Eine Beispieliste mit markierten Einträgen</description>
+			</screenshot>
+
+			<screenshot>
+				<thumb width="118" height="170">../graphics/thumbs/screenshots/martslists_de_2.jpg</thumb>
+				<large>../graphics/screenshots/martslists_de_2.jpg</large>
+				<description>Umblättern zwischen den Listen</description>
+			</screenshot>
+			
+			<block><text>Aber die spannendste Fähigkeit von Mart's Lists ist seine Schlauheit! Wenn Sie es erlauben, dann kann Mart's Lists automatisch lernen, welche Einträge Sie regelmäßig hinzufügen. Benutzen Sie Mart's Lists regelmäßig und es wird Sie automatisch daran erinnern, wenn es wieder Zeit ist, Milch oder Brot zu kaufen. Mart's Lists fügt regelmäßig hinzugefügte Einträge automatisch Ihrer Liste hinzu, wenn Sie sie hinzufügen würden. Solche automatisch hinzugefügten Vorschläge sind mit einer kleinen, leuchtenden Glühbirne von Mart's List markiert. Um Ihnen Ihr Leben noch angenehmer zu machen, unterstützt Mart's Lists die Spracheingabe des neuen iPhone 4S! Diktieren Sie einfach Ihre Einträge wie gewohnt und trennen Sie die einzelnen Einträge dabei mit "und". Nachdem Sie das als Text erfasste Ergebnis begutachten konnten, fügen Sie es einfach wie gewohnt hinzu und Mart's Lists wird die einzelnen Einträge erkennen.</text></block>
+			<block><text>Bitte beachten Sie, dass nur Einträge für das Lernen automatischer Vorschläge berücksichtigt werden, die für mindestens 10 Minuten auf einer Liste standen. Sie sollten daher irrtümlich hinzugefügte Einträge innerhalb von 10 Minuten von Listen entfernen.</text></block>
+
+			<qinfo>
+				<name>Mart's Lists</name>
+				<features>
+					<f>Bequeme und effiziente Bedienung</f>
+					<f>Kann regelmäßig hinzugefügte Einträge lernen</f>
+					<f>Unterstützt die Spracheingabe des neuen iPhone 4S</f>
+					<f>Unterstützt VoiceOver</f>
+				</features>
+			</qinfo>
+
+			<download>
+				<platform id="iphone">
+					<link>
+						<url>http://itunes.apple.com/de/app/marts-lists-are-smart-lists/id488513021</url>
+						<text>Download im App Store</text>
+					</link>
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

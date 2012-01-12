@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Documentations and Changelogs</title>
+		<language>en</language>
+		<description>Documentations and changelogs of the programs.</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Documentations and Changelogs" auto_toc="no">
+			<section title="Documentations">
+				<block><text>These documentations are to provide you with help and support on the usage of the programs. They should also give answers on possible questions. If you can't find an answer to your question here, don't hesitate to write me an e-mail. Simply use the e-mail address available on the </text><link url="about.html">about</link><text> page to do so.</text></block>
+
+				<block><text>The following program documentations are available:</text></block>
+				<list>
+					<element><link url="bfd_doc.html">Brainfucked: Program documentation</link></element>
+					<element><link url="devcont_doc.html">DevCont: Program documentation</link></element>
+					<element><link url="japtra_doc.html">Japtra: Program documentation</link></element>
+					<element><link url="ptinfo_doc.html">PTInfo Munich: Program documentation</link></element>
+				</list>
+			</section>
+
+			<section title="Changelogs">
+				<block><text>Changelogs or versions histories document changes and improvements to all versions of a programm. They are quite useful to answer questions like "What's new".</text></block>
+
+				<block><text>Following changelogs are available:</text></block>
+				<list>
+					<element><link url="bfd_log.html">Brainfucked: Changelog</link></element>
+					<element><link url="devcont_log.html">DevCont: Changelog </link></element>
+					<element><link url="japtra_log.html">Japtra: Changelog</link></element>
+					<element><link url="ptinfo_log.html">PTInfo Munich: Changelog</link></element>
+				</list>
+			</section>
+
+			<section title="Licenses and Copyright">
+				<block><text>For information about copyright and license agreements see </text><link url="copyright.html">licenses and copyright</link><text>.</text></block>
+			</section>
+		</section>
+	</content>
+</page>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Brainfucked - Brainfuck Compiler</title>
+		<language>de</language>
+		<description>Ein Open Source Compiler für Brainfuck mit Syntaxüberprüfung und Code-Optimierung für Windows und DOS.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="Brainfucked - Brainfuck Compiler">
+			<block><link url="http://de.wikipedia.org/wiki/Brainfuck">Brainfuck</link><text> ist eine einfach zu erlernende und dennoch in der Anwendung sehr komplizierte Programmiersprache. Autor dieser Programmiersprache ist der Schweizer Urban Müller, von dem auch der erste </text><link url="../download/brainfuck.zip">Interpreter und Compiler für Amiga-Systeme</link><text> stammt. Brainfucked dagegen ist ein leistungsstarker und dennoch ressourcensparender Brainfuck-Compiler für Windows- und DOS-Systeme.</text></block>
+
+			<block><text>Der Compiler verfügt über eine fortgeschrittene Technik zur Code-Optimierung. Was dazu führt, dass die mit Brainfucked erzeugten Programme sehr platz- und ressourcensparend sind. Natürlich überprüft Brainfucked auch die Syntax der Brainfuckprogramme und fängt so viele Fehler, die sich in ein Brainfuckprogramm einschleichen können, schon im Vorfeld ab.</text><text>Brainfucked kann darüberhinaus Brainfuckprogamme von verschiedensten Plattformen (Windows, DOS, Linux, Unix, Mac OS X) korrekt zu unter Windows und DOS ausführbaren Programmen übersetzen. Es gibt damit praktisch kein Brainfuckprogramm, welches nicht mit Brainfucked verarbeitet werden könnte!</text></block>
+
+			<block><text>Der Download von Brainfucked enthält neben dem eigentlichen Compiler und dessen Quellcode noch eine kurze Zusammenfassung der Brainfucksyntax, eine Beschreibung des Compilers sowie ein paar Beispielprogramme in Brainfuck.</text></block>
+
+			<qinfo>
+				<name>Brainfucked</name>
+				<version>1.0.0</version>
+				<filename>bfd</filename>
+				<features>
+					<f>Brainfuck-Compiler für Windows und MS-DOS</f>
+					<f>Syntaxüberprüfung der Brainfuckprogramme</f>
+					<f>Optimierung des erzeugten Programmcodes</f>
+					<f>Unterstützt Brainfuckprogramme verschiedenster Plattformen (Windows, DOS, Linux, Unix, Mac)</f>
+					<f>Erzeugt platzsparende COM-Dateien</f>
+					<f>Mit nur 799 Bytes geringe Eigengröße</f>
+					<f>Freier, offener Quellcode. Brainfucked ist Open Source!</f>
+				</features>
+			</qinfo>
+
+			<download>
+				<platform id="windows_dos">
+					<link>
+						<url>../download/bfd100.zip</url>
+						<filesize>20 KB</filesize>
+						<text>bfd100.zip</text>
+					</link>
+				</platform>
+			</download>
+			
+			<block>
+				<text>Daniel Mewes hat den Brainfucked-Compiler so angepassst, dass der Compiler und die erzeugten Programme auf dem </text>
+				<link url="http://de.wikipedia.org/wiki/Atari_Portfolio">Atari Portfolio</link>
+				<text> lauffähig sind. Als Besonderheit können die Programme zudem mit einem Mechanismus ausgestattet werden, der zur Laufzeit der erzeugten Programme sicherstellt, dass der interne Zeiger das Daten-Array nicht verlassen kann. Der auf Brainfucked 1.0.0 basierende Compiler nennt sich </text>
+				<link url="../download/pfd110.zip">Prainfucked</link>
+				<text> (23 KB) und existiert in zwei Varianten: einmal mit und einmal ohne dem erwähnten Laufzeitschutz. Beide Versionen des Compilers sind im eben verlinkten Download enthalten.</text>
+			</block>
+		</section>
+	</content>
+</page>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>NASfVI - Natürlichsprachiges Anfragesystem für Vorlesungsverzeichnisse im Internet</title>
+		<language>de</language>
+		<description>Ein natürlichsprachiges Anfragesystem für Vorlesungsverzeichnisse im Internet.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="NASfVI - Ein natürlichsprachiges Anfragesystem">
+			<block>
+			<text>NASfVI ist ein natürlichsprachiges Anfragesystem für Vorlesungsverzeichnisse im Internet. Es versteht Anfragen in natürlichem Deutsch und beantwortet sie ebenfalls auf Deutsch. Das Anfragesystem besteht aus einem mit Java-Servlets entwickelten Server, der in einem beliebigen Servlet-Container ausgeführt werden kann. Der Server beinhaltet eine in Prolog geschriebene Sprachverarbeitungskomponente, die ein Fragment des Deutschen implementiert und ein auf der Optimalitätstheorie basierendes Verfahren benutzt, um eine freie Phrasenstellung zu ermöglichen. Die Sprachverarbeitung ist darauf ausgelegt, möglichst viele Stellungsvarianten verarbeiten zu können.</text>
+			</block><block>
+			<text>Der Server verwendet </text><link url="http://lucene.apache.org">Apache Lucene</link><text> als Datenspeicher. Aus den natürlichsprachigen Anfragen werden Suchanfragen für Apache Lucene berechnet und dessen Suchindex durchsucht. Aus den zu den Anfragen passenden Dokumenten werden die gesuchten Informationen extrahiert und für die Generierung einer natürlichsprachigen Antwort auf Deutsch genutzt. Der Server unterstützt die OpenSearch-Spezifikationen für Suchmaschinen und Suggestions. NASfVI kann daher in verschiedenen Browsern als Suchmaschine integriert werden.</text>
+			</block><block>
+			<text>Außer dem Server liegt dem Anfragesystem auch ein Client bei, der mit dem </text><link url="http://code.google.com/webtoolkit/">Google Web Toolkit</link><text> entwickelt worden ist. Der Client unterstützt die Eingabe der Anfragen und die Anzeige der vom Server berechneten Antwort. Er bereitet außerdem die linguistischen Analysen und Details des Servers auf. Während ein Benutzer eine Anfrage in den Client eingibt, fragt dieser im Hintergrund ab, was für Anfragen mit der bisherigen Eingabe möglich sind. Diese von der Sprachverarbeitung berechneten Vorschläge blendet der Client zur Unterstützung des Benutzers ein.</text>
+			</block>
+
+			<screenshot>
+				<thumb width="180" height="95">../graphics/thumbs/screenshots/nasfvi.jpg</thumb>
+				<large>../graphics/screenshots/nasfvi.jpg</large>
+				<description>Eine Anfrage und deren Beantwortung im Client</description>
+			</screenshot>
+
+			<screenshot>
+				<thumb width="273" height="95">../graphics/thumbs/screenshots/nasfvi_suggest.jpg</thumb>
+				<large>../graphics/screenshots/nasfvi_suggest.jpg</large>
+				<description>Automatische Vorschläge für mögliche Anfragen</description>
+			</screenshot>
+
+			<block>
+			<text>Die Komponenten des Anfragesystems sind modular aufgebaut, so dass z. B. das Lexikon der Sprachverarbeitungskomponente problemlos gegen eines ausgetauscht werden kann, das nicht auf Vorlesungsverzeichnisse als Themengebiet festgelegt ist. Auch die gesamte Sprachverarbeitungskomponente kann ausgetauscht und durch eine andere ersetzt werden. Aber auch die Verwendung von Apache Lucene ist nicht zwingend. Denn aufgrund der Modularisierung des Systems kann die Volltextsuche ebenfalls für eine andere Suchtechnologie ausgetauscht werden.</text>
+			</block>
+
+			<block>
+			<text>NASfVI ist Teil meiner Magisterarbeit "</text><link url="publications.html">Entwurf und Implementierung eines natürlichsprachigen Anfragesystems für Vorlesungsverzeichnisse im Internet</link><text>".</text>
+			</block>
+
+			<qinfo>
+				<name>NASfVI</name>
+				<features>
+					<f>Versteht Anfragen auf Deutsch, generiert Antworten auf Deutsch</f>
+					<f>Tolerante Sprachverarbeitung</f>
+					<f>Anfragen werden linguistisch analysiert</f>
+					<f>Aufgrund der Analysen sind die Antworten zielsicher</f>
+					<f>Unterstützt auch Ähnlichkeitssuchen</f>
+					<f>Kann mit beliebigen Eigennamen und Bezeichnungen umgehen</f>
+					<f>Verwendet ein Server-Client-Modell</f>
+					<f>Unterstützt die OpenSearch-Spezifikationen</f>
+					<f>Kann als Suchmaschine in den Browsern Internet Explorer, Mozilla Firefox und Google Chrome verwendet werden</f>
+					<f>Beinhaltet einen modernen Web-Client für alle gängigen Browser</f>
+					<f>Der Client kann Vorschläge einblenden</f>
+					<f>Plattformunabhängig</f>
+				</features>
+			</qinfo>
+
+			<download>
+				<platform id="source">
+					<link>
+						<url>https://github.com/spartusch/NASfVI</url>
+						<text>Download bei GitHub</text>
+					</link>
+					<!--
+					<link>
+						<url>../download/nasfvi.tar.gz</url>
+						<filesize>2,5 MB</filesize>
+						<text>Direkt (Version 2011-09)</text>
+					</link>
+					-->
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Brainfucked - Documentation</title>
+		<language>en</language>
+		<description>Documentation of the Brainfucked compiler</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Brainfucked - Documentation">
+			<block><text>The following is the documentation of the program </text><link url="bfd.html">Brainfucked - Brainfuck Compiler</link><text>.</text></block>
+
+			<section title="Contents of the Download">
+				<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>File</th><th>Description</th></tr>
+<tr><td>bfd.com</td><td>The Brainfucked compiler itself.</td></tr>
+<tr><td>bfd.asm</td><td>The source code of Brainfucked.</td></tr>
+<tr><td>src/</td><td>Directory containing some examples written in Brainfuck.</td></tr>
+<tr><td>src/factor.b</td><td>Program which factors an arbitrarily large positive integer.</td></tr>
+<tr><td>src/hello.b</td><td>Prints "Hello World!".</td></tr>
+<tr><td>src/numwarp.b</td><td>A number...obfuscator? Prettifier? See source.</td></tr>
+<tr><td>src/prime.b</td><td>Can find all primes between 0 and 255.</td></tr>
+<tr><td>src/quine.b</td><td>Prints its own source code.</td></tr>
+<tr><td>gpl.txt</td><td>The <a href="gpl.html">GNU General Public License</a>.</td></tr>
+<tr><td>liesmich.txt</td><td>This documentation in German.</td></tr>
+<tr><td>readme.txt</td><td>This documentation in English.</td></tr>
+ </table>
+			</section>
+
+			<section title="The Brainfuck Language">
+				<block><text>Every brainfuck program has an array and a pointer, that points to the array. The array as well as the pointer can be manipulated with eight different commands:</text></block>
+
+				<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Command</th><th>Effect</th><th>Same in C</th></tr>
+ <tr><td>+</td><td>Increase element under the pointer</td><td>++*p;</td></tr>
+ <tr><td>- </td><td>Decrease element under the pointer</td><td>--*p;</td></tr>
+ <tr><td>&gt;</td><td>Increase pointer</td><td>p++;</td></tr>
+ <tr><td>&lt;</td><td>Decrease pointer</td><td>p--;</td></tr>
+ <tr><td>[</td><td>Start loop</td><td>while(*p) {</td></tr>
+ <tr><td>]</td><td>End loop, when element is zero</td><td>}</td></tr>
+ <tr><td>.</td><td>Print ASCII code of element</td><td>putchar(*p);</td></tr>
+ <tr><td>,</td><td>Read character and store it</td><td>*p=getchar();</td></tr>
+ </table>
+
+				<block><text>All other characters are ignored (and can therefore be used for annotation). All elements of the array are initialized with 0.</text></block>
+				<block><text>Further information about the language is available at the </text><link url="http://en.wikipedia.org/wiki/Brainfuck">Wikipedia</link><text>.</text></block>
+			</section>
+
+			<section title="The Brainfucked Compiler">
+				<section title="Usage">
+					<block><text>The compiler must be started in the prompt of Windows or directly under MS-DOS. It is called with "bfd filename.ending". Call it for example with "bfd src/hello.b" (without the double quotes). It is important, that the name of the source code file follows the DOS style "8.3". That is, that the file name must be shorter than nine (but longer than two) characters and the file extension shorter than four characters. If that's not the case, Brainfucked will react with a "ERR: File"-error message.</text></block>
+				</section>
+				<section title="Code Optimization">
+					<block><text>Brainfucked has quite good code optimization abilities. It optimizes your brainfuck programs to use as little memory as possible, which also improves the speed of execution.</text></block>
+				</section>
+				<section title="Syntax Checking">
+					<block><text>Brainfucked checks the syntax of your programs. If it discovers an (possible) error, it prints an error message or a warning. See "Messages".</text></block>
+				</section>
+				<section title="Compatibility">
+					<block><text>Brainfucked knows two different modes to create brainfuck programs.</text></block>
+
+					<block><text>In standard mode the ENTER-key will result in the value 10 (LF, when it's is read by the "," command. And the value 10 (LF) will create a complete DOS/Windows-line break (CR LF), when printing it with the "." command. Therefore the standard mode is able to correctly run brainfuck programs, which are written for Unix environments. Most more complex brainfuck programs are written for these environments. Thus it's, for compatibility reasons, recommended to develop own programs according to these specifications.</text></block>
+
+					<block><text>When calling Brainfucked with the parameter "-n" (e.g. "bfd -n src/hello.b"), the native mode will be used by Brainfucked to compile the source.</text><text>In this mode the input read from "," is the same as the plain DOS/Windows key codes. A ENTER-key therefore results in the value 13 (CR). You also have to "manually" print 13 and 10 (CR LF) to create a correct line break. This mode is only intended for brainfuck programs, which are specifically written for DOS/Windows. These programs are, however, unable to run on many other brainfuck implementations. It is not recommended to develop own programs for this mode.</text></block>
+
+					<block><text>In both modes an array of 44000 cells is available to every brainfuck program and each cell has a size of one byte. Every cell is initialized with 0.</text></block>
+
+					<block><text>Behavior of Brainfuck commands:</text></block>
+
+					<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Command</th><th>Behavior in standard mode</th><th>Behavior in native mode</th></tr>
+ <tr><td>+</td><td>Increase value</td><td>like in standard mode</td></tr>
+ <tr><td>- </td><td>Decrease value</td><td>like in standard mode</td></tr>
+ <tr><td>[</td><td>Start of a loop</td><td>like in standard mode</td></tr>
+ <tr><td>]</td><td>End of a loop</td><td>like in standard mode</td></tr>
+ <tr><td>&gt;</td><td>Increase pointer</td><td>like in standard mode</td></tr>
+ <tr><td>&lt;</td><td>Decrease pointer</td><td>like in standard mode</td></tr>
+ <tr><td>.</td><td>Output an ASCII-value*</td><td>Output an ASCII-value*</td></tr>
+ <tr><td>,</td><td>Read an and print the ASCII-value*</td><td>Read an ASCII-value*</td></tr>
+ </table>
+
+					<block><text>* see "Compatibility"!</text></block>
+				</section>
+				<section title="Messages">
+					<block><text>This is a list of all messages used by Brainfucked and their possible reasons:</text></block>
+
+					<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Message</th><th>Meaning</th><th>possible Reason</th></tr>
+ <tr><td>ERR: File</td><td>Error when processing files</td><td>File not found or not in 8.3 format</td></tr>
+ <tr><td>ERR: Loop</td><td>Serious syntax error</td><td>At least one wrong loop like "]["</td></tr>
+ <tr><td>WRN: Range</td><td>Possible error</td><td>More &lt; than &gt; found, if not intended, it's most likely an error!</td></tr>
+ <tr><td>File assembled</td><td>File successfully compiled</td><td>No serious errors occurred ;-)</td></tr>
+ </table>
+				</section>
+			</section>
+
+			<section title="License Agreements">
+				<block><text>Brainfucked is released under the terms of the </text><link url="gpl.html">GNU General Public License</link><text>. See gpl.txt in the download.</text></block>
+			</section>
+
+			<block><text>Have fun with Brainfucked!</text></block>
+		</section>
+	</content>
+</page>

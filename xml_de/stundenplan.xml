@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Stundenplan XML+XSLT</title>
+		<language>de</language>
+		<description></description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="Stundenplan XML+XSLT">
+			<block><text>Bei Stundenplan XML+XSLT handelt es sich um ein XML-Format für Stundenpläne und ein XSLT-Stylesheet, welches diese Stundenpläne in Browsern bequem und komfortabel darstellen kann. Das Format ist einfach zu lesen und deutsch-sprachig. Die XML-Dateien können aufgrund des Stylesheets übersichtlich und komfortabel in allen gängigen Browsern dargestellt werden.</text></block>
+			
+			<block><text>Die Stundenpläne bieten dabei automatisch berechnete Zusatzinformationen, wie die Anzahl der Semesterwochenstunden oder die Dauer einzelner Veranstaltungen. Zusammengehörende Veranstaltungen können zudem visuell hervorgehoben werden. Dadurch eignet sich Stundenplan XML+XSLT auch hervorragend dafür, Veranstaltungspläne für ganze Institute darzustellen. Den jeweiligen Bedürfnissen können die Stundenpläne angepasst werden.</text></block>
+			
+			<block><text>Die Verwendung des Stylesheets, sowie das Format der XML-Dateien wird in der </text><link url="stundenplan_doc.html">Dokumentation</link><text> ausführlich beschrieben!</text></block>
+			
+			<block><text>Beispiel-Stundenpläne:</text></block>
+
+			<list>
+				<element>
+					Minimales Beispiel: <link url="../download/stundenplan1.xml">Stundenplan ohne Hervorhebung (einfarbig)</link>
+				</element>
+				<element>
+					Minimales Beispiel: <link url="../download/stundenplan1.xml">Stundenplan mit Hervorhebung (einfarbig)</link>
+				</element>
+				<element>
+					Umfangreiches Beispiel: <link url="../download/stundenplan3.xml">Stundenplan für die Veranstaltungen eines Instituts (mehrfarbig)</link>
+				</element>
+			</list>
+
+			<qinfo>
+
+				<name>Stundenplan XML+XSLT</name>
+
+				<version>2.0</version>
+
+				<filename>stundenplan</filename>
+
+				<features>
+					<f>Keine Installation notwendig!</f>
+					<f>Für Studenten, Schüler, aber auch für ganze Institutspläne geeignet!</f>
+					<f>Einfach lesbares und schreibbares XML</f>
+					<f>Freie Zeitangaben wählbar und automatische Berechnung der optimalen Darstellung</f>
+					<f>Automatisch Zusatzinformationen wie die Anzahl der Semesterwochenstunden</f>
+					<f>Farbliche Hervorhebung und Gruppierung der Veranstaltungen möglich</f>
+					<f>Veranstaltungen können mit Anmerkungen versehen oder einer Internet-Adresse verknüpft werden</f>
+					<f>Mit allen gängigen Browsern verwendbar (u. a. Internet Explorer, Firefox, Safari, Opera und Google Chrome)</f>
+				</features>
+			</qinfo>
+
+			<download>
+
+				<platform id="browser">
+
+					<link>
+
+						<url>../download/stundenplan.xsl</url>
+						<filesize>24 KB</filesize>
+
+						<text>stundenplan.xsl</text>
+
+					</link>
+
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

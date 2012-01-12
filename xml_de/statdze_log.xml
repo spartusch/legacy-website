@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>StatDZE - Changelog</title>
+		<language>de</language>
+		<description>Changelog (Versionshistorie) von StatDZE</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="StatDZE Changelog">
+			<block><text>Im Folgenden sind alle Veränderungen gegenüber Vorgängerversion von </text><link url="statdze.html">StatDZE</link><text> aufgelistet.</text></block>
+
+			<section title="Version 1.0.0 (01.07.2004)">
+				<list>
+					<element><text>Programmhilfe verfügbar</text></element>
+					<element><text>Installer erstellt</text></element>
+					<element><text>Quellcode überarbeitet</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.0.0 beta (11.06.2004)">
+				<list>
+					<element><text>Erstveröffentlichung</text></element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

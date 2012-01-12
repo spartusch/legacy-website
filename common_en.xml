@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<common xmlns="http://www.partusch.de.vu">
+	<categories>
+		<category id="main">
+			<reference>../index.html</reference>
+			<menu_active>index</menu_active>
+			<title>Welcome to</title>
+		</category>
+		<category id="main_programs">
+			<reference>index.html</reference>
+			<menu_active>programs</menu_active>
+			<title>Programs from</title>
+		</category>
+		<category id="main_contents">
+			<reference>index.html</reference>
+			<menu_active>contents</menu_active>
+			<title>Contents of</title>
+		</category>
+		<category id="main_documents">
+			<reference>index.html</reference>
+			<menu_active>docs</menu_active>
+			<title>Documents at</title>
+		</category>
+		<category id="main_copyright">
+			<reference>index.html</reference>
+			<menu_active>copyright</menu_active>
+			<title>Licenses at</title>
+		</category>
+		<category id="main_about">
+			<reference>index.html</reference>
+			<menu_active>about</menu_active>
+			<title>About</title>
+		</category>
+		<category id="license">
+			<reference>copyright.html</reference>
+			<menu_active>copyright</menu_active>
+			<title>Licenses at</title>
+		</category>
+		<category id="program">
+			<reference>programs.html</reference>
+			<menu_active>programs</menu_active>
+			<title>Programs from</title>
+		</category>
+		<category id="document">
+			<reference>docs.html</reference>
+			<menu_active>docs</menu_active>
+			<title>Documents at</title>
+		</category>
+	</categories>
+
+	<menu>
+		<entry file="index" title="Home"/>
+		<entry file="contents" title="Contents"/>
+		<entry file="programs" title="Programs">
+			<entry file="martslists"/>
+			<entry file="bfd"/>
+			<entry file="devcont"/>
+			<entry file="japtra"/>
+			<!--<entry file="ptinfo"/>
+			<entry file="eastereggs"/>-->
+			<entry file="programs" title="... more programs"/>
+		</entry>
+		<entry file="docs" title="Documents"/>
+		<entry file="about" title="About..."/>
+	</menu>
+
+	<language>
+		<ie_comment><![CDATA[[if lt IE 7]><p><span class="note">Note</span>: You are using an absolutely out-dated version of Microsoft Internet Explorer, which - because of insufficient technical capabilities - displays this and many other websites incorrectly and with limited functionality. Please consider updating to more secure and more advanced browsers like <a href="http://www.opera.com">Opera</a> or <a href="http://www.mozilla.com">Mozilla Firefox</a>.</p><p>&nbsp;</p><![endif]]]></ie_comment>
+		<qinfo>
+			<intro>A short summary of some of the features of </intro>
+			<version1>The current version of </version1>
+			<version2> is </version2>
+			<changelog1>See the </changelog1>
+			<changelog2>changelog</changelog2>
+			<changelog3> for detailed descriptions of changes and improvements to older versions. </changelog3>
+			<license1>Please pay attention to the </license1>
+			<license2>license agreements</license2>
+			<info1>Information on the usage of </info1>
+			<info2> is available in its </info2>
+			<info3>documentation</info3>
+		</qinfo>
+		<download>
+			<heading>Download</heading>
+			<windows>for Windows (2000, XP, Vista, ...)</windows>
+			<windows_dos>for Windows 9x/ME/2000/XP, DOS (16 Bit)</windows_dos>
+			<j2me>for Java enabled devices (MIDP 2.0)</j2me>
+			<source>Source code</source>
+			<iphone>App Store (iPhone, iPod Touch)</iphone>
+		</download>
+		<program>
+			<more>Read more about </more>
+		</program>
+		<auto_toc>
+			<heading>Contents of this page:</heading>
+			<to_top>to top</to_top>
+		</auto_toc>
+	</language>
+</common>

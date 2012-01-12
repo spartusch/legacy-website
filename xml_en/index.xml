@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Stefan Partusch - Home</title>
+		<language>en</language>
+		<description>Freeware and open source programs; personal homepage of Stefan Partusch</description>
+		<category>main</category>
+	</meta>
+	<content>
+		<section title="Welcome">
+			<block><text>Nice to see you here and welcome to the homepage of Stefan Partusch. See the </text><link url="contents.html">table of contents</link><text> for detailed information about what to find here. This website is primarily for the </text><link url="programs.html">programs</link><text> I've written and which are offered for free. Many of these programs are open source, i.e. their source code is freely available to the public. Everything on this website is at least freeware and therefore completely free to use. But be aware that I can't provide any warranty for the programs. Please feel free to email me your thoughts and suggestions. Simply use the email address from the </text><link url="about.html">about</link><text> page to do so.</text></block>
+
+			<section title="Releases and Updates">
+				<list>
+					<element>
+						<text>2011-12-14 - Release of </text>
+						<link url="martslists.html">Mart's Lists</link><text> in the App Store</text>
+					</element>
+					<element>
+						<text>2011-09-17 - Added my thesis and presentations to the </text>
+						<link url="../html_de/index.html">German version of this website</link><text></text>
+					</element>
+					<element>
+						<text>2006-10-14 - Added a modification of </text>
+						<link url="bfd.html">Brainfucked</link><text> called Prainfucked</text>
+					</element>
+					<element>
+						<text>2005-10-30 - Release of </text>
+						<link url="ptinfo.html">PTInfo Munich for Mobiles</link><text> version 0.0.1</text>
+					</element>
+					<element>
+						<text>2005-09-14 - New section </text>
+						<link url="docs.html">Documents</link><text> added</text>
+					</element>
+					<element>
+						<text>2005-09-04 - Wallpapers removed and new </text>
+						<link url="gpl.html">GPL</link><text> emphasized </text>
+						<link url="copyright.html">license agreements</link><text></text>
+					</element>
+					<element>
+						<text>2005-08-07 - Added support for viewing this website with cellular phones and similar devices</text>
+					</element>
+					<element>
+						<text>2005-05-01 - Release of </text>
+						<link url="bfd.html">Brainfucked</link><text> version 1.0.0</text>
+					</element>
+					<element>
+						<text>2005-02-23 - Release of </text>
+						<link url="bfd.html">Brainfucked</link><text> version 0.1.0</text>
+					</element>
+					<element>
+						<text>2004-10-04 - New design (XHTML 1.0 Strict and CSS2) and revised contents</text>
+					</element>
+					<element>
+						<text>2004-01-06 - Release of </text>
+						<link url="japtra.html">Japtra - Japanese Trainer</link><text> version 1.0.1</text>
+					</element>
+					<element>
+						<text>2002-11-07 - Release of </text>
+						<link url="japtra.html">Japtra - Japanese Trainer</link><text> version 1.0.0</text>
+					</element>
+					<element>
+						<text>2002-09-19 - Release of </text>
+						<link url="japtra.html">Japtra - Japanese Trainer</link><text> version 0.0.1 (Beta)</text>
+					</element>
+					<element>
+						<text>2002-06-27 - Release of </text>
+						<link url="devcont.html">DevCont - Developer's Connector</link><text> version 1.0.1</text>
+					</element>
+					<element>
+						<text>2002-06-23 - Release of </text>
+						<link url="devcont.html">DevCont</link><text> 1.0.0 (TCP/UDP Connector 1.3.0)</text>
+					</element>
+					<element>
+						<text>2002-01-25 - Release of </text>
+						<link url="bfd.html">Brainfucked</link><text> 0.0.2 under the </text>
+						<link url="gpl.html">GPL</link><text>!</text>
+					</element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

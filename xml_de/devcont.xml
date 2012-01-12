@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>DevCont - Developer's Connector</title>
+		<language>de</language>
+		<description>Erlaubt es unter Verwendung von TCP/IP oder UDP/IP Verbindungen mit anderen Computern mit beliebigen Diensten aufzubauen und Daten auszutauschen.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="DevCont - Developer's Connector">
+			<block><text>DevCont erlaubt es dem Anwender, sich mit jedem beliebigen Computer und dort mit jedem beliebigen Port zu verbinden. Dadurch ermöglicht es den Datenaustausch mit jedem Dienst. Dazu kennt DevCont drei verschiedene Übertragungsmodi, um Daten zu empfangen und zu senden. DevCont kann Daten im ASCII-Modus (für auf Text basierende Protokolle wie SMTP und POP3 hervorragend geeignet), im binären Modus (für Protokolle wie SOCKS geeignet, die keine druckbaren ASCII-Zeichen austauschen) und im Advanced Modus (welcher ein Mix aus ASCII- und Binärmodus ist) empfangen und übertragen. Alle drei Übertragungsmodi sind sowohl bei TCP/IP, wie auch bei UDP/IP Verbindungen verfügbar.</text></block>
+
+			<block><text>DevCont hat zwei Hauptanwendungsgebiete:</text></block>
+			<list>
+    				<element><text>DevCont soll es Entwicklern ermöglichen, auf einfache Weise ihre Serveranwendungen zu testen, ohne dass extra ein Client dafür geschrieben werden muss.</text></element>
+    				<element><text>Auch soll DevCont eine Möglichkeit bieten, um relativ einfach, fast spielerisch Protokolle testen zu können. Nichts ist so ärgerlich, als wenn man tagelang an einer Anwendung geschrieben hat, nur um festzustellen, dass sie nicht funktioniert, weil man ein RFC o.Ä. falsch verstanden hat.</text></element>
+			</list>
+
+			<block><text>Gerade auch "normale" Anwender können mit Hilfe von DevCont einiges über Internetprotokolle herausfinden. Zum Beispiel können mit DevCont E-Mails per Hand verschickt werden, um so zu verstehen und zu lernen, wie das mit den E-Mails überhaupt funktioniert.</text></block>
+
+			<screenshot>
+				<thumb width="211" height="129">../graphics/thumbs/screenshots/devcont.jpg</thumb>
+				<large>../graphics/screenshots/devcont.jpg</large>
+				<description>DevCont kurz nach Programmstart</description>
+			</screenshot>
+
+			<qinfo>
+				<name>DevCont</name>
+				<version>1.0.1</version>
+				<filename>devcont</filename>
+				<features>
+					<f>Kann Verbindungen zu beliebigen Ports auf beliebigen Zielrechnern herstellen</f>
+					<f>Verwendet TCP/IP und UDP/IP-Verbindungen</f>
+					<f>Kennt drei nützliche Verbindungsmodi: ASCII-, Advanced- und Binärmodus</f>
+					<f>Übersichtliche graphische Benutzeroberfläche mit Info-Feldern</f>
+				</features>
+			</qinfo>
+
+			<download>
+			    <platform id="windows">
+					<link>
+						<url>../download/devcont.zip</url>
+						<filesize>18 KB</filesize>
+						<text>direkter Download</text>
+					</link>
+					<link>
+						<url>http://www.programmersheaven.com/download/21657/download.aspx</url>
+						<text>Download bei www.programmersheaven.com</text>
+					</link>
+					<link>
+						<url>http://www.freeware.de/download/devcont-developers-connector_6951.html</url>
+						<text>Download bei www.freeware.de</text>
+					</link>			
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

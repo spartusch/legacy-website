@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Dokumentationen und Changelogs</title>
+		<language>de</language>
+		<description>Dokumentationen und Changelogs meiner Programme</description>
+		<category>main_documents</category>
+	</meta>
+	<content>
+		<section title="Dokumentationen und Changelogs" auto_toc="no">
+			<section title="Dokumentationen">
+				<block><text>Die folgenden Dokumentationen geben Ihnen Unterstützung und Hilfe bei der Verwendung der Programme und beantworten eventuell auftretende Fragen. Sollten Sie hier wider Erwarten keine Antwort auf eine Ihrer Fragen finden, so können Sie mich natürlich auch gerne persönlich kontaktieren. Schicken Sie mir dazu einfach eine E-Mail an die auf der </text><link url="about.html">Über</link><text>-Seite angegebene E-Mail-Adresse.</text></block>
+
+				<block><text>Zu folgenden Programmen sind Dokumentationen verfügbar:</text></block>
+				<list>
+					<element><link url="bfd_doc.html">Brainfucked: Programmdokumentation</link></element>
+					<element><link url="devcont_doc.html">DevCont: Programmdokumentation</link></element>
+					<element><link url="japtra_doc.html">Japtra: Programmdokumentation</link></element>
+					<element><link url="ptinfo_doc.html">PTInfo München: Programmdokumentation</link></element>
+					<element><link url="statdze_doc.html">StatDZE: Programmdokumentation</link></element>
+					<element><link url="stundenplan_doc.html">Stundenplan XML+XSLT: Format- und Programmdokumentation</link></element>
+				</list>
+
+			</section>
+
+			<section title="Changelogs">
+				<block><text>Changelogs oder Versionshistorien dokumentieren für jedes Programm Veränderungen und Verbesserungen, die bei neuen Versionen gemacht wurden.</text></block>
+
+				<block><text>Folgende Changelogs sind verfügbar:</text></block>
+				<list>
+					<element><link url="bfd_log.html">Brainfucked: Changelog</link></element>
+					<element><link url="devcont_log.html">DevCont: Changelog </link></element>
+					<element><link url="japtra_log.html">Japtra: Changelog</link></element>
+					<element><link url="ptinfo_log.html">PTInfo München: Changelog</link></element>
+					<element><link url="statdze_log.html">StatDZE: Changelog</link></element>
+					<element><link url="statdze_log.html">Stundenplan XML+XSLT: Changelog</link></element>
+				</list>
+
+			</section>
+
+			<section title="Lizenzen und Urheberrecht">
+				<block><text>Informationen zu Lizenzbedingungen sind im Abschnitt </text><link url="copyright.html">Lizenzen und Urheberrecht</link><text> zu finden.</text></block>
+			
+			</section>
+		</section>
+	</content>
+</page>

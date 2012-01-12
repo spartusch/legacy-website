@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Japtra - Changelog</title>
+		<language>de</language>
+		<description>Changelog (Versionshistorie) von Japtra - Japanisch Trainer</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Japtra Changelog" auto_toc="no">
+			<block><text>Im Folgenden sind alle Veränderungen gegenüber Vorgängerversion von </text><link url="japtra.html">Japtra</link><text> aufgelistet.</text></block>
+
+			<section title="Version 1.0.1 (06.01.2004)">
+				<list>
+					<element><text>Neuer Installer (geringere Dateigröße)</text></element>
+					<element><text>Ein paar Kleinigkeiten und Bugfixes</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.0.0 (07.11.2002)">
+				<list>
+					<element><text>Vereinfachte Kursverwaltung</text></element>
+					<element><text>Unterstützung von Sprachdateien</text></element>
+					<element><text>Zeichen für HTML-Ausgabe werden dynamisch generiert</text></element>
+					<element><text>Leicht überarbeitetes GUI</text></element>
+					<element><text>Überarbeitete Vokabellistengenerierung</text></element>
+					<element><text>Ein paar Kleinigkeiten</text></element>
+				</list>
+			</section>
+
+			<section title="Version 0.0.1 (beta - 19.09.2002)">
+				<list>
+					<element><text>Erstveröffentlichung</text></element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

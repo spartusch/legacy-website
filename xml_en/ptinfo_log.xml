@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>PTInfo Munich - Changelog</title>
+		<language>en</language>
+		<description>Changelog (versions history) of PTInfo Munich</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="PTInfo Munich - Changelog" auto_toc="no">
+			<block><text>The following lists all changes and improvements to all versions of </text><link url="ptinfo.html">PTInfo Munich for Mobiles</link><text>.</text></block>
+
+			<section title="Version 0.0.1 (2005-10-30)">
+				<list>
+					<element><text>First release</text></element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

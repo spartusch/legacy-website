@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>PTInfo Munich - Documentation</title>
+		<language>en</language>
+		<description>Documentation of PTInfo Munich</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="PTInfo Munich - Documentation">
+			<block><text>The following is the documentation of the program </text><link url="ptinfo.html">PTInfo Munich for Mobiles</link><text>.</text></block>
+
+			<section title="Installation of PTInfo">
+				<block><text>When you directly download the JAD or JAR files of </text><link url="ptinfo.html">PTInfo Munich</link><text> with your cellular phone, it should recognize and install the program automatically. But you can also download the files to your computer and install it on your cellphone using for instance a bluetooth or infrared connection to your phone. How to do this is described in your phone's manual or ask the manufacturer of your phone. All you need to do then is to start PTInfo Munich. Upon its first start it will set itself up and ask you e.g. the language you'd like to use. To be able to use PTInfo Munich on your phone, it must support Java and MIDP 2.0 or newer.</text></block>
+			</section>
+
+			<section title="Using the program">
+				<block><text>First select a line, a starting and a destination station. The next available connections between them will be computed and displayed. To display connections of different times, select another departure time. The current settings will be saved when closing the program and will be restored when starting it again. Different settings for line, start and destination can be stored and loaded using the favorites management.</text></block>
+			</section>
+
+			<section title="Description of the data formats">
+				<section title="Format of the language files">
+					<block><text>The file "config_lang.txt" contains all language files available in PTInfo Munich. The format of this file is fairly simple: there's one entry for one language file on each line, which consists of a name and of a, via colon separated, filename. Each entry is terminated with a semicolon. The filenames are the actual language files, which are all located in the "/lang" directory. Within the language files each line ending with a semicolon is one entry. It's best to look at the file  "Language.java" from PTInfo Munich's source code for more details. Pay attention to save all files PTInfo is supposed to read in UTF-8!</text></block>
+				</section>
+
+				<section title="Format of the data files">
+					<block><text>The public transportation lines are stored in a central configuration file similiar to the language files. Unlike in the configuration files of the language files not all lines must be present in that file but just the lines, you do want to be shown in the dialog for the selection of the lines. The filename of that configuration file is "config_lines.txt". All files with information about one specific public transportation line are stored in the directory "/lines". Again mind to use UTF-8!</text></block>
+
+					<block><text>Each file in the directory "/lines" represents only one direction of one line. The first two settings are the name of the line and the filename of the line for the opposite direction. Both settings must end with a semicolon:</text></block>
+
+					<pre xmlns="http://www.w3.org/1999/xhtml">name=S2 Erding;
+op=s2petershausen.txt;</pre>
+
+					<block><text>The next entries are for specific routes of the line, which are basically lists with elements terminated by semicolons. Each route consists of two blocks with # being used to separate the blocks. The first block is a list with all the stations for the route and the second block is the timetable information for the route given in the first block. The number before each station is the time in minutes it takes to get from the first station to that particular station. The timetable is split up in sections according to hours in 24h format. The first number is the hour followed by a list of minutes. All departure times are the times of the first station of the line! You can add flags to the minutes by using + to bind the departure times to specific restrictions. The currently supported restrictions are:</text></block>
+
+					<table xmlns="http://www.w3.org/1999/xhtml">
+<tr><th>Flag</th><th>Restriction</th></tr>
+<tr><td>w</td><td>available monday to friday</td></tr>
+<tr><td>s</td><td>available saturday and sunday</td></tr>
+<tr><td>f</td><td>only available at the nights friday/saturday and saturday/sunday</td></tr>
+<tr><td>dX</td><td>only available on weekday X (1 = sunday, 2 = monday, ... 7 = saturday)</td></tr>
+<tr><td>nX</td><td>not available on weekday X</td></tr>
+<tr><td>oDDMM</td><td>only available on a specific day (e.g. o2412 only on 24th december)</td></tr>
+<tr><td>cDDMM</td><td>not available on that day</td></tr>
+<tr><td>zDDMMDDMM</td><td>only available between the given dates (e.g. z01081212 only between 1st august and 12th december)</td></tr>
+</table>
+
+					<block><text>The meaning of "1; 31+f+c2412+c2512;" is for instance, that the train leaves at 1:31 AM in the first station of the route but only in the nights friday/saturday and saturday/sunday and only when it's not the 24th nor the 25th of december.</text></block>
+				</section>
+			</section>
+		</section>
+	</content>
+</page>

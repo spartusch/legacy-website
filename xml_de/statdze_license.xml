@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>StatDZE-Lizenz</title>
+		<language>de</language>
+		<description>Lizenzvertrag von StatDZE</description>
+		<category>license</category>
+	</meta>
+	<content>
+		<section title=" StatDZE Version 1.0.0 - Lizenz (28. Juni 2004)" auto_toc="no">
+			<block><text>Bevor Sie </text><link url="statdze.html">StatDZE</link><text> verwenden dürfen, müssen Sie diese Lizenz durchlesen und akzeptieren. Andernfalls dürfen Sie StatDZE weder auf ihrem Computer installieren noch verwenden.</text></block>
+
+			<section title="VERWENDUNG des ausführbaren Programms">
+				<block><text> Die Verwendung von StatDZE erfolgt grundsätzlich auf eigene Gefahr. Es bestehen keinerlei Ansprüche auf Funktionalität und Fehlerfreiheit des Programms. Sollte die Verwendung von StatDZE zu Datenverlusten oder Schäden anderer Art führen, so erwachsen auch daraus keine Ansprüche gegenüber dem Autor, Stefan Partusch, des Programmes. StatDZE ist grundsätzlich Freeware und wird Ihnen vollkommen frei zur Verfügung gestellt. Aus diesem Grund wird für StatDZE auch keinerlei Garantie oder Support gewährt.</text></block>
+			</section>
+
+			<section title="VERWENDUNG des Quellcodes oder Teilen davon">
+				<block><text> StatDZE ist Open Source, d.h., der Quellcode des Programms ist frei verfügbar. Dieser Quellcode kann selbstverständlich auch beliebig abgeändert und für eigene Programme verwendet werden. Die Verwendung des Quellcodes setzt jedoch voraus, dass Sie an für den Endanwender sichtbarer Stelle einen Hinweis im Programm einfügen müssen, dass ihr Programm auf StatDZE basiert. Dieser Hinweis muss mindestens den Programmnamen 'StatDZE' sowie die Internetadresse 'www.partusch.de.vu' beinhalten (z.B. "Dieses Programm basiert auf StatDZE von www.partusch.de.vu"). Sollten Sie nur sehr geringe Teile des Quellcodes in ihrem Programm verwenden, so reicht es auch aus, wenn Sie innerhalb der Programmdokumentation obigen Hinweis anbringen. Der Endanwender muss in diesem Fall jedoch freien Zugriff auf diese Dokumentation haben.</text></block>
+			</section>
+
+			<section title="VERBREITUNG des Programms und/oder des Quellcodes">
+				<block><text> Die Verbreitung von StatDZE in ausführbarer Form oder als Quellcode unterliegt keinen grundsätzlichen Beschränkungen. Sie dürfen jedoch keine Bezahlung für das Programm oder dessen Quellcode verlangen. Dem Programm StatDZE in ausführbarer Form wie auch als Quellcode muss jedoch immer dieser Lizenzvertrag in unverändeter Form beiliegen! Es ist auch darauf zu achten, dass die Dateien des Programms unbeschädigt sind und dem Anwender (z.B. durch Virenbefall der Dateien) kein Schaden entstehen kann.</text></block>
+			</section>
+
+			<block><text>Zurück zu </text><link url="copyright.html">Lizenz/Copyright</link><text>.</text></block>
+		</section>
+	</content>
+</page>

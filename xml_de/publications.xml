@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Veröffentlichungen</title>
+		<language>de</language>
+		<description>Veröffentlichungen, Magisterarbeit und Präsentationen.</description>
+		<category>main_publications</category>
+	</meta>
+	<content>
+		<section title="Veröffentlichungen" auto_toc="no">
+			<section title="Magisterarbeit">
+				<block><text>In dieser Magisterarbeit wurde ein natürlichsprachiges Anfragesystem für Vorlesungsverzeichnisse im Internet entwickelt. Das Anfragesystem versteht Fragen, die auf Deutsch gestellt werden, und beantwortet sie auf Deutsch. Für das Anfragesystem wurde ein Fragment des Deutschen in Prolog implementiert, ein auf Java-Servlets basierender Server und ein graphischer Client entwickelt. Die implementierte Sprachverarbeitung benutzt ein auf der Optimalitätstheorie basierendes Verfahren für eine freie Phrasenstellung und analysiert die Anfragen linguistisch. Es werden Suchanfragen für </text><link url="http://lucene.apache.org">Apache Lucene</link><text> berechnet und mit den Suchergebnissen natürlichsprachige Antworten auf Deutsch generiert. Die graphische Oberfläche unterstützt das Einblenden von Vorschlägen, die von der Sprachverarbeitung passend für die Benutzereingaben berechnet werden.</text></block>
+				<list>
+					<element>Magisterarbeit: 
+						<link url="../papers/magisterarbeit.pdf">Entwurf und Implementierung eines natürlichsprachigen Anfragesystems für Vorlesungsverzeichnisse im Internet</link>
+					</element>
+					<element>Quellcode zur Magisterarbeit: <link url="nasfvi.html">NASfVI - Ein natürlichsprachiges Anfragesystem</link></element>
+				</list>
+
+			</section>
+
+			<section title="Präsentationen">
+				<list>
+					<element>
+						<link url="../papers/kommunikation_spiel.pdf">Kommunikation als Spiel zwischen rationalen Agenten</link>
+						<text>, Sommersemester 2008, Ludwig-Maximilians-Universität München</text>
+					</element>
+					<element>
+						<link url="../papers/furcht_angst_folien.pdf">Furcht und Angst</link>
+						<text> (</text>
+						<link url="../papers/furcht_angst_handout.pdf">Handout</link>
+						<text>), Herbstsemester 2007, Universität Zürich</text>
+					</element>
+					<element>
+						<link url="../papers/parallele_korpora.pdf">Parallele Korpora</link>
+						<text>, Sommersemester 2006, Ludwig-Maximilians-Universität München</text>
+					</element>
+				</list>
+
+			</section>
+		</section>
+	</content>
+</page>

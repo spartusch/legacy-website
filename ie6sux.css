@@ -1,0 +1,41 @@
+/*	CSS-Design for http://www.partusch.de.vu
+	This file deals with the rather poor CSS of IE 6. It "neutralizes" some of the standard compliant CSS to avoid "confusing" IE. */
+
+#title { border-bottom: 0px; }
+#download ul.platform p { width: 54%; }
+
+#nav li a {
+    border-left: 0px;
+	border-right: 0px;
+	display: inline;
+}
+#nav li.current a {
+	color: black;
+	background-color: rgb(199,202,226);
+}
+
+a { display: inline; }
+
+/* Navigation / Menu */
+
+#nav {
+    display: block;
+	position: static;
+	top: auto;
+}
+#nav li {
+    display: inline;
+    border: 0;
+}
+#nav li.current {
+	background-color: rgb(199,202,226);
+	border: 0;
+}
+
+/* Lists in content */
+
+#content ul, #content ol {
+	list-style-position: inside;
+	width: 83%;
+}
+#content ol.gpl li { list-style-type: decimal; }

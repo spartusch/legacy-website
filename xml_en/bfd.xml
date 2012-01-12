@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Brainfucked - Brainfuck Compiler</title>
+		<language>en</language>
+		<description>An open source brainfuck compiler with syntax checking and advanced code optimization for Windows and DOS.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="Brainfucked - Brainfuck Compiler">
+			<block><link url="http://en.wikipedia.org/wiki/Brainfuck">Brainfuck</link><text> is an easy to learn yet complicated to use programming language. Author of the language is Urban Müller, who also wrote the first </text><link url="../download/brainfuck.zip">interpreter and compiler for Amiga systems</link><text>. Brainfucked on the other hand is a powerful and efficient brainfuck compiler for Windows and MS-DOS systems.</text></block>
+
+			<block><text>The compiler features an advanced code-optimization and therefore programs created with Brainfucked are quite small. Brainfucked, of course, checks the syntax of brainfuck programs to catch common and possible errors before compiling. It is also capable of compiling programs written for many different platforms such as Windows, DOS, Linux, Unix or Mac OS X. Thus there's virtually no brainfuck program, which Brainfucked can't compile! Every program compiled with Brainfucked is executable under Windows and MS-DOS.</text></block>
+
+			<block><text>The download of Brainfucked includes the compiler itself, its source code, a readme with a brief summary of the brainfuck syntax and some brainfuck examples.</text></block>
+
+			<qinfo>
+				<name>Brainfucked</name>
+				<version>1.0.0</version>
+				<filename>bfd</filename>
+				<features>
+					<f>Brainfuck compiler for Windows and MS-DOS</f>
+					<f>Checks the syntax of brainfuck programs</f>
+					<f>Creates optimized machine code and small files</f>
+					<f>Supports brainfuck programs written for different platforms (Windows, DOS, Linux, Unix, Mac)</f>
+					<f>Creates space saving COM files</f>
+					<f>Needs just 799 bytes of space</f>
+					<f>Free and open source code. Brainfucked is Open Source!</f>
+				</features>
+			</qinfo>
+
+			<download>
+				<platform id="windows_dos">
+					<link>
+						<url>../download/bfd100.zip</url>
+						<text>bfd100.zip</text>
+						<filesize>20 KB</filesize>
+					</link>
+				</platform>
+			</download>
+
+			<block>
+				<text>Daniel Mewes wrote a modification of Brainfucked to make the compiler and the programs it creates executable on the </text>
+				<link url="http://en.wikipedia.org/wiki/Atari_Portfolio">Atari Portfolio</link>
+				<text>. A special feature of this modification is the possibility to add boundary checks to the programs to be performed at runtime. These checks are to assure that the internal pointer can't be moved outside the data array. The compiler, which is based on Brainfucked 1.0.0, is called </text>
+				<link url="../download/pfd110.zip">Prainfucked</link>
+				<text> (23 KB) and is available in two versions: one with and one without the generation of boundary checks. Both versions are included in the given download.</text>
+			</block>
+		</section>
+	</content>
+</page>

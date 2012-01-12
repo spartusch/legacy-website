@@ -1,0 +1,387 @@
+/*	CSS-Design for http://www.partusch.de.vu
+	Copyright (c) 2004-2006 by Stefan Partusch */
+
+/* General */
+
+body {
+	color: black;
+	background-color: rgb(232,232,232);
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+*[lang] { font-style: normal; }
+img { border: 0; }
+acronym { border-bottom: 1px dotted black; }
+
+h1 acronym, h2 acronym, h3 acronym {
+	text-decoration: none;
+	border: 0;
+}
+
+#content h1, #content h2, #content h3 {
+    font-weight: bold;
+    padding: 0;
+	margin: 2em auto 1em auto;
+}
+
+#content h1 {
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+#content h2 { font-size: 1.5em; }
+#content h2.starting { margin: 1em auto; }
+#content h2.news { font-size: 1em; }
+
+#content h3 { font-size: 1.3em; }
+
+#content div.program h3, #download h2 {
+	font-size: 1em;
+	background-color: rgb(199,202,226);
+	margin: 0;
+}
+#content div.program h3 {
+	border-bottom: 1px solid #808080;
+    padding: 0.2em;
+}
+#download h2 {
+    border: 1px solid #808080;
+    border-bottom: 0px;
+    padding: 0.1em 0;
+	width: 100%;
+}
+
+#title span {
+	font-size: 0.7em;
+	vertical-align: top;
+}
+#content span.version, #content span.note { font-weight: bold; }
+#content span.note { text-decoration: underline; }
+#lang_sel span { padding-left: 2em; }
+
+#content pre {
+    margin: 2em auto;
+    padding: 1em;
+	width: 70%;
+	text-align: left;
+    background-color: rgb(232,232,232);
+	border: 1px dotted #808080;
+}
+
+
+/* DIVs */
+
+#title, #language, #menu, #content {
+	margin: 0% auto;
+	width: 85%;
+}
+
+#title, #menu, #content {
+	border-left: 1px solid #808080;
+	border-right: 1px solid #808080;
+}
+
+#language {
+	line-height: 1.5em;
+	text-align: left;
+}
+
+#title {
+	color: white;
+	background-color: rgb(0,120,180);
+	font-size: 2em;
+	padding: 0.1em 0;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+}
+
+#menu {
+	background-color: rgb(199,202,226);
+    padding: 0;
+}
+
+#content {
+	background-color: rgb(248,248,248);
+    border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+    padding: 2em 0 4em 0;
+    position: relative;
+    top: -1px;
+}
+
+#auto_toc {
+	margin: 3em auto 0 auto;
+    background-color: rgb(232,232,232);
+	border: 1px solid #808080;
+	padding: 1em 2em;
+    font-weight: bold;
+	width: 25em;
+}
+
+#lang_sel { margin: 2em auto 0 auto; }
+
+#screenshot_container {
+	width: 80%;
+    margin: 2em auto;
+	padding: 0;
+    overflow: auto;
+}
+#screenshot_container div {
+	width: 49%;
+    margin: 0 auto;
+}
+#screenshot_container div.multi { float: left; }
+#download {
+    margin: 2em auto;
+    width: 70%;
+}
+#content div.program {
+    margin: 2em auto;
+    width: 70%;
+    border: 1px solid #808080;
+    overflow: auto;
+}
+
+#copyright {
+    clear: left;
+	font-size: 0.8em;
+}
+
+
+/* Paragraphs */
+
+#content p {
+	width: 85%;
+	margin: 1em auto 0 auto;
+	padding: 0;
+	text-align: left;
+}
+
+#content p.starting { margin-top: 2em; }
+
+#content p.auto_toc { text-align: right; }
+
+#screenshot_container div p, #content p.egg {
+	background-color: rgb(232,232,232);
+	border: 1px dotted #808080;
+	text-align: center;
+	padding: 0.2em;
+}
+#content p.egg { width: 60%; }
+#screenshot_container div p {
+    width: 80%;
+    margin: 0.3em auto 0 auto;
+}
+
+#content div.program p {
+	width: auto;
+	padding: 0.3em;
+	margin: 0;
+}
+#content div.program p.img {
+    float: left;
+    margin: 0 0.2em 0 0;
+}
+
+#download ul.platform p {
+    padding-left: 2%;
+    width: 55%;
+    margin: 0;
+    float: left;
+}
+
+
+/* Lists */
+
+/* Navigation / Menu */
+
+#nav {
+    display: table;
+    position: relative;
+    top: -1px;
+    margin: 0 auto;
+    padding: 0;
+}
+#nav li {
+	display: table-cell; /* padding */
+    list-style-type: none;
+    border: 0;
+    border-top: 1px solid #808080;
+}
+
+#nav li:hover, #nav li.current {
+    cursor: pointer;
+    z-index: 100;
+	background-color: rgb(0,120,180);
+	border-top: 1px solid rgb(0,120,180);
+    border-left: 1px solid #808080; /* 'width' 'reserved' by #nav li a */
+    border-right: 1px solid #808080;
+}
+
+#nav li ul.sublist { display: none; }
+#nav li:hover ul.sublist {
+    display: block;
+    position: absolute;
+    margin-left: -1px;
+    margin-top: 0;
+    z-index: 100;
+    padding: 0;
+    width: 17em;
+    border: 1px solid #808080;
+	border-top: 0;
+}
+#nav li:hover ul.sublist li {
+    display: block;
+    padding-left: 0.5em;
+    background-color: white;
+	border: 0;
+    border-top: 1px solid #808080;
+}
+#nav li:hover ul.sublist li:hover { background-color: rgb(232,232,232); }
+
+/* Lists in content */
+
+#content ul, #content ol {
+	margin: 1em auto;
+	padding: 0;
+	text-align: left;
+	width: 80%;
+}
+#content ul li { list-style-type: disc; }
+
+#content ul.sublist { margin: 0 0 0 2em; }
+#content table ul { margin-top: 0; }
+
+#content ul.w3c_img {
+	margin: 3em auto;
+	text-align: center;
+}
+#content ul.w3c_img li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 1em;
+}
+
+#download ul.platform {
+    border: 1px solid #808080;
+	padding: 0.3em 0;
+    margin: 0;
+    width: 100%;
+}
+#download ul.platform ul {
+    width: 41%;
+    float: left;
+    text-align: right;
+    margin: 0;
+}
+#download ul.platform li {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+#content ol.gpl {
+	width: 83%;
+	margin: 1em auto 0 auto;
+    counter-reset: i -1;
+}
+#content ol.gpl > li:before {
+	counter-increment: i;
+    content: counter(i) ". ";
+}
+#content ol.gpl li {
+    list-style-type: none;
+    list-style-position: inside;
+	margin: 0;
+	padding: 0.5em 0;
+}
+#content ol.gpl li ol li {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+}
+
+#auto_toc ol {
+	margin: 1em 0;
+	list-style-position: inside;
+	font-weight: normal;
+	width: 100%;
+	text-align: left;
+}
+#auto_toc ol ol {
+	margin: 0 auto 0 2em;
+	list-style-type: lower-roman;
+	width: 95%;
+}
+
+
+/* Links */
+
+a[name] { position: absolute; }
+a[id] { position: absolute; }
+
+/* Slimbox */
+#lbBottom a { position: relative; }
+
+a { text-decoration: none; }
+a:link { color: rgb(0,120,180); }
+a:visited { color: rgb(128,0,0); }
+a:hover, a:active { color: rgb(250,0,0); }
+
+th a, h3 a { font-weight: bold; }
+th a:link, th a:visited, h3 a:link, h3 a:visited, h2 a:link, h2 a:visited { color: black; }
+th a:hover, th a:active, h3 a:hover, h3 a:active, h2 a:hover, h2 a:active { color: rgb(250,0,0); }
+
+#title a { color: white; }
+#title a:hover { color: rgb(0,0,128); }
+
+#nav li a {
+    color: black;
+    padding: 0.2em 0.5em;
+    line-height: 1.5em;
+    text-align: left;
+    border-left: 1px solid rgb(199,202,226); /* see #nav li:hover */
+    border-right: 1px solid rgb(199,202,226);
+    display: block;
+}
+
+#nav li:hover a, #nav li a:hover, #nav li.current a {
+    color: white;
+	background-color: rgb(0,120,180);
+    border: 0; /* 'width' replaced by borders from #nav li:hover */
+}
+
+#nav li:hover ul.sublist li a {
+    background-color: white;
+    color: black;
+    border: 0;
+}
+#nav li:hover ul.sublist li:hover a {
+    color: black;
+    background-color: rgb(232,232,232);
+}
+
+
+/* Tables */
+
+#content table {
+    padding: 0;
+    margin: 2em auto;
+    border-collapse: collapse;
+    border-spacing: 2em 0;
+	width: 75%;
+}
+#content table th {
+	background-color: rgb(199,202,226);
+    padding: 0.2em;
+    border: 1px solid #808080;
+}
+#content table td {
+	vertical-align: top;
+	border: 1px solid #808080;
+	text-align: left;
+}
+#content table td.lbel {
+	font-weight: bold;
+	width: 20%;
+}

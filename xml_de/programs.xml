@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Programme</title>
+		<language>de</language>
+		<description>Freeware und 'Open Source'-Programme von Stefan Partusch</description>
+		<category>main_programs</category>
+	</meta>
+	<content>
+		<section title="Programme" auto_toc="no">
+			<block>
+				<text>In diesem Bereich finden Sie alle meine verfügbaren Programme. Dabei handelt es sich ausnahmslos um Freeware, d.h., die Programme sind kostenlos und dürfen kopiert und vervielfältigt werden. Die Benutzung der Programme erfolgt immer auf eigene Gefahr, da ich keinerlei Garantie übernehmen kann! Bitte beachten Sie auch den Abschnitt "</text><link url="copyright.html">Lizenzen und Urheberrecht</link><text>".</text>
+			</block>
+
+			<section title="Apps für iOS (iPhone und iPod Touch)">
+				<program>
+					<name>Mart's Lists</name>
+					<title>Mart's Lists are smart lists</title>
+					<link>martslists.html</link>
+					<screenshot width="118" height="170">martslists_de_1.jpg</screenshot>
+					<description>Mart's Lists ermöglicht es einfach Listen zu erstellen, zu verwalten und durchzublättern. Wenn man es erlaubt, dann kann Mart's Lists automatisch lernen, welche Einträge regelmäßig hinzugefügt werden. Um das Leben noch angenehmer zu machen, unterstützt Mart's Lists außerdem die mit dem iPhone 4S eingeführte Spracheingabe!</description>
+				</program>
+			</section>
+
+			<section title="Plattformunabhängige Programme">
+				<program>
+					<name>NASfVI</name>
+					<title>NASfVI - Ein natürlichsprachiges Anfragesystem</title>
+					<link>nasfvi.html</link>
+					<screenshot width="180" height="95">nasfvi.jpg</screenshot>
+					<description>NASfVI ist ein natürlichsprachiges Anfragesystem für Vorlesungsverzeichnisse im Internet. Es ermöglicht Anfragen in natürlichem Deutsch und beantwortet diese auf Deutsch. NASfVI ist im Rahmen meiner Magisterarbeit entstanden.</description>
+				</program>
+				<program>
+					<name>Stundenplan XML+XSLT</name>
+					<title>Stundenplan XML+XSLT 2.0</title>
+					<link>stundenplan.html</link>
+					<description>Ein XML-Format für Stundenpläne und ein Stylesheet, um diese XML-Stundenpläne komfortabel in Browsern darzustellen.</description>
+				</program>
+
+				<program>
+					<name>PTInfo München</name>
+					<title>PTInfo München für Handys 0.0.1</title>
+					<link>ptinfo.html</link>
+					<description>PTInfo München ist ein Programm für Java-fähige Handys und Geräte, welches Abfahrts- und Ankunftszeiten der Münchner S-Bahnen berechnet.</description>
+				</program>
+			</section>
+
+			<section title="Windowsprogramme">
+				<program>
+					<name>DevCont</name>
+					<title>DevCont - Developer's Connector 1.0.1</title>
+					<link>devcont.html</link>
+					<screenshot width="140" height="80">devcont.jpg</screenshot>
+					<description>Erlaubt es unter Verwendung von TCP/IP oder UDP/IP Verbindungen mit anderen Computern mit beliebigen Diensten aufzubauen und Daten auszutauschen.</description>
+				</program>
+
+				<program>
+					<name>Japtra</name>
+					<title>Japtra - Japanisch Trainer 1.0.1</title>
+					<link>japtra.html</link>
+					<screenshot width="140" height="80">japtra.jpg</screenshot>
+					<description>Japtra eignet sich als Begleitung zu Japanischkursen und frägt japanische Vokabeln und Redewendungen ab. Es bietet außerdem die Möglichkeit, Vokabellisten zu erstellen und beherrscht Hiragana und Katakana.</description>
+				</program>
+
+				<program>
+					<name>StatDZE</name>
+					<title>StatDZE - Wie lange noch? 1.0.0</title>
+					<link>statdze.html</link>
+					<screenshot width="140" height="80">statdze_mil.jpg</screenshot>
+					<description>Für GWDL/Soldaten und Zivildienstleistende gedacht. Zeigt bei Eingabe des jeweiligen Dienstzeitbeginns und des Dienstzeitendes die bereits abgeleistete Dienstzeit, sowie die restliche noch verbleibende Dienstzeit an.</description>
+				</program>
+			</section>
+
+			<section title="MS-DOS/Windows-Programme">
+				<program>
+					<name>Brainfucked</name>
+					<title>Brainfucked - Brainfuck Compiler 1.0.0</title>
+					<link>bfd.html</link>
+					<description>Brainfucked ist ein Compiler mit Code-Optimierung und Syntaxüberprüfung für die Programmiersprache Brainfuck.</description>
+				</program>
+			</section>
+
+			<section title='"Überraschungseier"'>
+				<block><text>Viele meiner Programme verfügen über ein "Überraschungsei", ein sog. Easter Egg. Das ist eine kleine Spielerei, die nirgends dokumentiert ist und vom Anwender gleichsam entdeckt werden muss. Nun sind diese Funktionen aber mitunter nicht leicht zu finden, weswegen hier </text><link url="eastereggs.html">Suchtipps für Easter Eggs</link><text> in meinen Programmen gegeben werden sollen.</text></block>
+			</section>
+		</section>
+	</content>
+</page>

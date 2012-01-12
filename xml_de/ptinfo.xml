@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>PTInfo München für Handys</title>
+		<language>de</language>
+		<description>Ein kleines Auskunftsprogramm für die Münchner S-Bahn-Linien für Handys.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="PTInfo München für Handys">
+			<block><text>PTInfo München ist ein kostenloses Open Source-Programm für Java-fähige Handys und Geräte. Es berechnet die Abfahrts- und Ankunftszeiten der Münchner S-Bahn-Linien S1, S2, S5, S7 und S8. Weitere S-Bahn-Linien werden in späteren Versionen folgen.</text><text>Der Benutzer kann aus Listen Ziel- und Startbahnhof auswählen und bekommt dann die Zeiten für die als nächstes und übernächstes verfügbaren Verbindungen angezeigt. Es kann auch zu jeder aktuellen Verbindung auf Knopfdruck die entsprechende Verbindung für eine Rückfahrt berechnet werden. PTInfo München bietet zudem eine Favoritenverwaltung, mit der man bestimmte Teilstrecken abspeichern und jederzeit wieder bequem abrufen kann. Darüberhinaus benötigt PTInfo München keinerlei Internetanbindung um die Zeiten zu berechnen. Es entstehen also keinerlei Kosten!</text><text>Das Programm ist unter der </text><link url="gpl.html">GPL</link><text> veröffentlicht und damit frei verfügbar.</text></block>
+
+			<screenshot>
+				<thumb width="100" height="129">../graphics/thumbs/screenshots/ptinfo.jpg</thumb>
+				<large>../graphics/screenshots/ptinfo_de.jpg</large>
+				<description>PTInfo München auf dem Sun JWT</description>
+			</screenshot>
+    
+			<qinfo>
+				<name>PTInfo München</name>
+				<version>0.0.1</version>
+				<filename>ptinfo</filename>
+				<features>
+					<f>Lauffähig auf allen neuen Handys (benötigt lediglich Unterstützung für MIDP 2.0 oder neuer)</f>
+					<f>Berechnet Abfahrts- und Ankunftszeiten der Münchner S-Bahn-Linien S1, S2, S5, S7 und S8</f>
+					<f>Ermöglicht mit einer Favoritenverwaltung einen Schnellzugriff auf oft verwendete Strecken</f>
+					<f>Kann die Abfahrtszeiten ab verschiedenen Zeitpunkten berechnen</f>
+					<f>Benötigt keine Internetanbindung und erzeugt dadurch keinerlei Kosten!</f>
+					<f>Freier, offener Quellcode. PTInfo München ist Open Source!</f>
+				</features>
+			</qinfo>
+
+			<download>
+				<platform id="j2me">
+					<link>
+						<url>../download/PTInfo.jad</url>
+						<text>PTInfo.jad</text>
+						<filesize>0,3 KB</filesize>
+					</link>
+					<link>
+						<url>../download/PTInfo.jar</url>
+						<text>PTInfo.jar</text>
+						<filesize>28 KB</filesize>
+					</link>
+				</platform>
+				<platform id="source">
+					<link>
+						<url>../download/PTInfo_src.zip</url>
+						<text>PTInfo_src.zip</text>
+						<filesize>42 KB</filesize>
+					</link>
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

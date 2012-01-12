@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stundenplan.xsl"?>
+
+<stundenplan version="2.0">
+	<titel>Lehrveranstaltungen LFE Medieninformatik</titel>
+	<semester>2007</semester>
+
+	<Vorlesung>
+		<veranstaltung>
+			<titel>Medientechnik</titel>
+			<dozent>Prof. Butz</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/mt</url>
+			<termin>
+				<tag>mi</tag>
+				<von>9</von>
+				<bis>11</bis>
+				<ort>Theresienstr. 39, B006</ort>
+			</termin>
+			<termin>
+				<tag>fr</tag>
+				<von>9</von>
+				<bis>11</bis>
+				<ort>Theresienstr. 39, B139</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>MMI 2</titel>
+			<dozent>Prof. Hußmann</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/mmi2</url>
+			<termin>
+				<tag>di</tag>
+				<von>9</von>
+				<bis>11</bis>
+				<ort>Theresienstr. 39, B006</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Multimedia-Programmierung</titel>
+			<dozent>Prof. Hußmann</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/mmp</url>
+			<termin>
+				<tag>do</tag>
+				<von>12</von>
+				<bis>14</bis>
+				<ort>Geschw.-Scholl-Platz 2, E216</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Smart Graphics</titel>
+			<dozent>Prof. Butz</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/sg</url>
+			<termin>
+				<tag>do</tag>
+				<von>10</von>
+				<bis>12</bis>
+				<ort>Amalienstr. 17, 105</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>3D-Computergrafik</titel>
+			<dozent>Prof. Hoppe</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/3dcg</url>
+			<termin>
+				<tag>di</tag>
+				<von>14</von>
+				<bis>16</bis>
+				<ort>Theresienstr. 37, A027</ort>
+			</termin>
+		</veranstaltung>
+	</Vorlesung>
+
+	<Übung>
+		<veranstaltung>
+			<titel>Übung Medientechnik</titel>
+			<dozent>Raphael Wimmer</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/mt</url>
+			<termin>
+				<tag>mo</tag>
+				<von>12</von>
+				<bis>14</bis>
+				<ort>Amalienstr. 17, CIP-Pool</ort>
+			</termin>
+			<termin>
+				<tag>di</tag>
+				<von>12</von>
+				<bis>14</bis>
+				<ort>Amalienstr. 17, CIP-Pool</ort>
+			</termin>
+			<termin>
+				<tag>fr</tag>
+				<von>13</von>
+				<bis>15</bis>
+				<ort>Amalienstr. 17, CIP-Pool</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Übung Multimedia-Programmierung</titel>
+			<dozent>Anreas Pleuss</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/mmp</url>
+			<termin>
+				<tag>mo</tag>
+				<von>8</von>
+				<bis>12</bis>
+				<ort>Amalienstr. 17, CIP-Pool</ort>
+			</termin>
+			<termin>
+				<tag>fr</tag>
+				<von>8</von>
+				<bis>12</bis>
+				<ort>Amalienstr. 17, CIP-Pool</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Übung 3D-Computergrafik</titel>
+			<dozent>Prof. Hoppe</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/3dcg</url>
+			<termin>
+				<tag>mo</tag>
+				<von>14</von>
+				<bis>16</bis>
+				<ort>Amalienstr. 17, CIP-Pool</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Übung Smart Graphics</titel>
+			<dozent>Sebastian Boring</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/sg</url>
+			<termin>
+				<tag>fr</tag>
+				<von>10</von>
+				<bis>12</bis>
+				<ort>Amalienstr. 17, 107</ort>
+			</termin>
+			<termin>
+				<tag>fr</tag>
+				<von>12</von>
+				<bis>14</bis>
+				<ort>Amalienstr. 17, 107</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Übung MMI 2</titel>
+			<dozent>Arndt Vitzthum</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/mmi2</url>
+			<termin>
+				<tag>di</tag>
+				<von>12</von>
+				<bis>14</bis>
+				<ort>Amalienstr. 17, 105</ort>
+			</termin>
+			<termin>
+				<tag>do</tag>
+				<von>12</von>
+				<bis>14</bis>
+				<ort>Amalienstr. 17, 107</ort>
+			</termin>
+			<termin>
+				<tag>fr</tag>
+				<von>10</von>
+				<bis>12</bis>
+				<ort>Amalienstr. 17, 105</ort>
+			</termin>
+		</veranstaltung>
+	</Übung>
+	
+	<Praktikum>
+		<veranstaltung>
+			<titel>Praktikum Mediengestaltung</titel>
+			<dozent>Raphael Wimmer</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/pmg</url>
+			<termin>
+				<tag>mo</tag>
+				<von>14</von>
+				<bis>16</bis>
+				<ort>Amalienstr. 17, 103</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Praktikum Entwicklung Mediensysteme</titel>
+			<dozent>Gregor Broll, Alexander De Luca</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/pem</url>
+			<termin>
+				<tag>mi</tag>
+				<von>14</von>
+				<bis>16</bis>
+				<ort>Amalienstr. 17, 107</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Praktikum 3D-Programmierung</titel>
+			<dozent>Otmar Hilliges</dozent>
+			<url>http://www.medien.ifi.lmu.de/lehre/ss07/3dp</url>
+			<termin>
+				<tag>mi</tag>
+				<von>10</von>
+				<bis>12</bis>
+				<ort>Amalienstr. 17, 103</ort>
+			</termin>
+		</veranstaltung>
+	</Praktikum>
+		
+	<Seminar>
+		<veranstaltung>
+			<titel>Oberseminar</titel>
+			<dozent>Andreas Pleuss</dozent>
+			<url>http://www.medien.ifi.lmu.de/team/andreas.pleuss</url>
+			<termin>
+				<tag>do</tag>
+				<von>14</von>
+				<bis>16</bis>
+				<ort>Amalienstr. 17, 107</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Hauptseminar "Applications and Services for Small Devices"</titel>
+			<dozent>Alexander De Luca, Gregor Broll</dozent>
+			<url>http://www.medien.ifi.lmu.de/team/andreas.pleuss</url>
+			<termin>
+				<tag>di</tag>
+				<von>14</von>
+				<bis>16</bis>
+				<ort>Amalienstr. 17, 107</ort>
+			</termin>
+		</veranstaltung>
+	</Seminar>
+	
+	
+	<Sprechstunde>
+		<veranstaltung>
+			<titel>Sprechstunde</titel>
+			<dozent>Prof. Hußmann</dozent>
+			<url>http://www.medien.ifi.lmu.de/team/heinrich.hussmann</url>
+			<termin>
+				<tag>fr</tag>
+				<von>11</von>
+				<bis>12</bis>
+				<ort>Amalienstr. 17, 508</ort>
+			</termin>
+		</veranstaltung>
+		<veranstaltung>
+			<titel>Sprechstunde</titel>
+			<dozent>Prof. Butz</dozent>
+			<url>http://www.medien.ifi.lmu.de/team/andreas.butz</url>
+			<termin>
+				<tag>mi</tag>
+				<von>15</von>
+				<bis>17</bis>
+				<ort>Amalienstr. 17, 503</ort>
+			</termin>
+		</veranstaltung>
+	</Sprechstunde>
+
+	<konfiguration>
+		<farben farbdruck="0">
+			<Vorlesung>#f5f5f5</Vorlesung>
+			<Übung>#ededff</Übung>
+			<Praktikum>#fffee8</Praktikum>
+			<Seminar>#a0e0ff</Seminar>
+			<Sprechstunde>#ffe4e0</Sprechstunde>
+		</farben>
+		<wochentage>
+			<tag id="mo">Montag</tag>
+			<tag id="di">Dienstag</tag>
+			<tag id="mi">Mittwoch</tag>
+			<tag id="do">Donnerstag</tag>
+			<tag id="fr">Freitag</tag>
+		</wochentage>
+		<anzeige>
+		    <sws-anzeigen>0</sws-anzeigen>
+		    <hervorhebung>1</hervorhebung>
+		</anzeige>
+		<zeiten zeige-alle="0">
+		    <intervall sichtbar="1">0</intervall>
+			<beginn>8</beginn>
+			<ende>20</ende>
+		</zeiten>
+	</konfiguration>
+</stundenplan>

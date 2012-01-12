@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Inhalt</title>
+		<language>de</language>
+		<description>Inhaltsverzeichnis der Webseite</description>
+		<category>main_contents</category>
+	</meta>
+	<content>
+		<section title="Inhaltsverzeichnis">
+			<block><text>Dies ist das Inhaltsverzeichnis oder auch Sitemap dieser Website. Von hier aus kann jede Unterseite direkt erreicht, sowie die Struktur der gesamten Website eingesehen werden.</text></block>
+
+			<table_of_contents>
+				<entry file="../index" title="Sprachauswahl">
+					<entry file="index" title="Startseite"/>
+					<entry file="contents"/>
+					<entry file="programs">
+						<entry file="nasfvi"/>
+						<entry file="martslists"/>
+						<entry file="bfd"/>
+						<entry file="devcont"/>
+						<entry file="japtra"/>
+						<entry file="ptinfo"/>
+						<entry file="statdze"/>
+						<entry file="stundenplan"/>
+						<entry file="eastereggs"/>
+						<entry file="docs">
+							<entry file="bfd_doc"/>
+							<entry file="bfd_log"/>
+							<entry file="devcont_doc"/>
+							<entry file="devcont_log"/>
+							<entry file="japtra_doc"/>
+							<entry file="japtra_log"/>
+							<entry file="ptinfo_doc"/>
+							<entry file="ptinfo_log"/>
+							<entry file="statdze_doc"/>
+							<entry file="statdze_log"/>
+							<entry file="stundenplan_doc"/>
+							<entry file="stundenplan_log"/>
+						</entry>
+						<entry file="copyright">
+							<entry file="gpl"/>
+							<entry file="statdze_license" title="StatDZE-Lizenz"/>
+						</entry>
+					</entry>
+					<entry file="publications"/>
+					<entry file="about" title="Über..."/>
+				</entry>
+			</table_of_contents>
+
+			<block><span class="note" xmlns="http://www.w3.org/1999/xhtml">Nutzungshinweis:</span><text> Es sind Tastaturkürzel für das Menü definiert. Sofern Ihr Browser diese unterstützt, können Sie meistens mit "Alt + Zahl" (</text><link url="http://www.opera.com">Opera</link><text>-Browser: erst "Shift + Esc", dann "Zahl" drücken) auf die Einträge des Menüs zugreifen. Wobei "Zahl" eine Zahl zwischen 1 und 5 sein muss, und die Einträge des Menüs links beginnend mit "1" (für die Startseite) und endend mit "5" ganz Rechts ("Über...") anspricht.</text></block>
+		</section>
+	</content>
+</page>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<common xmlns="http://www.partusch.de.vu">
+	<categories>
+		<category id="main">
+			<reference>../index.html</reference>
+			<menu_active>index</menu_active>
+			<title>Willkommen auf</title>
+		</category>
+		<category id="main_programs">
+			<reference>index.html</reference>
+			<menu_active>programs</menu_active>
+			<title>Programme von</title>
+		</category>
+		<category id="main_contents">
+			<reference>index.html</reference>
+			<menu_active>contents</menu_active>
+			<title>Inhalt von</title>
+		</category>
+		<category id="main_documents">
+			<reference>index.html</reference>
+			<menu_active>programs</menu_active>
+			<title>Dokumentationen bei</title>
+		</category>
+		<category id="main_copyright">
+			<reference>programs.html</reference>
+			<menu_active>programs</menu_active>
+			<title>Lizenzen bei</title>
+		</category>
+		<category id="main_publications">
+			<reference>index.html</reference>
+			<menu_active>publications</menu_active>
+			<title>Veröffentlichungen von</title>
+		</category>
+		<category id="main_about">
+			<reference>index.html</reference>
+			<menu_active>about</menu_active>
+			<title>Über</title>
+		</category>
+		<category id="license">
+			<reference>copyright.html</reference>
+			<menu_active>programs</menu_active>
+			<title>Lizenzen bei</title>
+		</category>
+		<category id="program">
+			<reference>programs.html</reference>
+			<menu_active>programs</menu_active>
+			<title>Programme von</title>
+		</category>
+		<category id="document">
+			<reference>docs.html</reference>
+			<menu_active>programs</menu_active>
+			<title>Dokumente bei</title>
+		</category>
+	</categories>
+
+	<menu>
+		<entry file="index" title="Startseite"/>
+		<entry file="contents" title="Inhalt"/>
+		<entry file="programs" title="Programme">
+			<entry file="nasfvi"/>
+			<entry file="martslists"/>
+			<!--<entry file="bfd"/>
+			<entry file="devcont"/>
+			<entry file="japtra"/>
+			<entry file="ptinfo"/>
+			<entry file="statdze"/>
+			<entry file="eastereggs"/>
+			<entry file="stundenplan"/>-->
+			<entry file="programs" title="... weitere Programme"/>
+		</entry>
+		<entry file="publications" title="Veröffentlichungen"/>
+		<entry file="about" title="Über..."/>
+	</menu>
+	
+	<language>
+		<ie_comment><![CDATA[[if lt IE 7]><p><span class="note">Hinweis</span>: Sie verwenden eine veraltete Version des Microsoft Internet Explorers, welche aufgrund mangelhafter Technik diese und andere Websites fehlerhaft und mit eingeschränkter Funktionalität darstellt. Es ist deshalb empfehlenswert einen sichereren und fortschrittlicheren Browser wie <a href="http://www.opera.com">Opera</a> oder auch <a href="http://www.mozilla.com">Mozilla Firefox</a> zu verwenden.</p><p>&nbsp;</p><![endif]]]></ie_comment>
+		<qinfo>
+			<intro>Eine kurze Zusammenfassung einiger Merkmale von </intro>
+			<version1>Die aktuelle Version von </version1>
+			<version2> ist </version2>
+			<changelog1>Im </changelog1>
+			<changelog2>Changelog</changelog2>
+			<changelog3> sind Änderungen gegenüber älteren Programmversionen dokumentiert. </changelog3>
+			<license1>Beachten Sie bitte auch die </license1>
+			<license2>Lizenzbedingungen</license2>
+			<info1>Informationen zur Verwendung von </info1>
+			<info2> erhalten Sie in dessen </info2>
+			<info3>Dokumentation</info3>
+		</qinfo>
+		<download>
+			<heading>Downloadmöglichkeiten</heading>
+			<windows>für Windows (2000, XP, Vista, ...)</windows>
+			<windows_dos>für Windows 9x/ME/2000/XP, DOS (16 Bit)</windows_dos>
+			<j2me>für Java-fähige Handys/Geräte (MIDP 2.0)</j2me>
+			<browser>für alle Systeme</browser>
+			<source>Quellcode</source>
+			<iphone>App Store (iPhone, iPod Touch)</iphone>
+		</download>
+		<program>
+			<more>Mehr über </more>
+		</program>
+		<auto_toc>
+			<heading>Inhalt dieser Seite:</heading>
+			<to_top>nach oben</to_top>
+		</auto_toc>
+	</language>
+</common>

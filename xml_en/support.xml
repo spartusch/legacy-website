@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Support</title>
+		<language>en</language>
+		<description>Support for apps in the App Store</description>
+		<category>main_programs</category>
+	</meta>
+	<content>
+		<section title="Support" auto_toc="no">
+			<block>
+				<text>Please use the email address </text><link url="mailto:partusch@arcor.de">partusch@arcor.de</link><text> for your support requests for the following apps:</text>
+			</block>
+			<list>
+				<element><text>Mart's Lists are smart lists</text></element>
+			</list>
+			<block>
+				<text>Please use English or German for your support requests.</text>
+			</block>
+		</section>
+	</content>
+</page>

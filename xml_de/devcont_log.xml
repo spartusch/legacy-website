@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>DevCont - Changelog</title>
+		<language>de</language>
+		<description>Changelog (Versionshistorie) von DevCont</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="DevCont Changelog" auto_toc="no">
+			<block><text>Im Folgenden sind alle Veränderungen gegenüber Vorgängerversion von </text><link url="devcont.html">DevCont</link><text> aufgelistet.</text></block>
+
+			<section title="Version 1.0.1 (27.06.2002)">
+				<list>
+					<element><text>Kleiner Bugfix (Einstellungen wurden nicht geladen)</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.0.0 (DevCont - 23.06.2002)">
+				<list>
+					<element><text>Neuer Name (statt "TCP/UDP Connector" nun "DevCont")</text></element>
+					<element><text>Fenstergröße und Position wird gespeichert</text></element>
+					<element><text>Farbschemen</text></element>
+					<element><text>Statusbar anklickbar</text></element>
+					<element><text>Kleinere Korrekturen/Verbesserungen</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.2.2 (21.05.2002)">
+				<list>
+					<element><text>Kennt jetzt insgesamt 20 "well known ports"</text></element>
+					<element><text>Kleinen Fehler im Binary mode behoben</text></element>
+					<element><text>Kleinere Korrekturen/Verbesserungen</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.2.1">
+				<list>
+					<element><text>Kleinere Verbesserungen</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.2.0 (05.04.2002)">
+				<list>
+					<element><text>Advanced Modus hinzugefügt</text></element>
+					<element><text>Einstellungen werden jetzt beim Beenden gespeichert</text></element>
+					<element><text>Bugfix: Läuft jetzt auch unter Windows 98</text></element>
+					<element><text>Einige teils "große" Verbesserungen</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.1.0">
+				<list>
+					<element><text>Experimentellen binären Modus eingeführt</text></element>
+					<element><text>Statusanzeigen: Vorgang, Verbindung, Protokoll, Modus, gesendete/empfangene Bytes</text></element>
+					<element><text>Viele, viele teils "große" Verbesserungen</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.0.2 (14.02.2002)">
+				<list>
+					<element><text>Empfangene Mac und Unix Zeilenumbrüche werden korrekt dargestellt</text></element>
+					<element><text>Kontextmenü der rechten Maustaste angepasst</text></element>
+					<element><text>Kleinere Verbesserungen</text></element>
+				</list>
+			</section>
+
+			<section title="Version 1.0.1 (TCP/UDP Connector - 05.02.2002)">
+				<list>
+					<element><text>Erstveröffentlichung</text></element>
+				</list>
+			</section>
+		</section>
+	</content>
+</page>

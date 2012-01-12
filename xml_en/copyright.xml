@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Licenses and Copyright</title>
+		<language>en</language>
+		<description>Licenses from and of my programs.</description>
+		<category>main_copyright</category>
+	</meta>
+	<content>
+		<section title="Licenses and Copyright" auto_toc="no">
+			<block><text>Version 2, September 2005</text></block>
+
+			<section title="General">
+				<block><text>This website is provided free of charge and under no special conditions. The website and all of its contents is nevertheless protected by copyright and is the intellectual property of Stefan Partusch.</text></block>
+			</section>
+
+			<section title="License agreements for the programs">
+				<block><text>Unless stated else on this website all of the programs provided are Free Software, i.e. Open Source, under the terms and conditions of the </text><link url="gpl.html">GNU General Public License</link><text>. See below for special license agreements for some of the programs.</text></block>
+			</section>
+
+			<section title="Special licenese agreements for some programs">
+				<section title='License agreements for the programs "DevCont" and "Japtra"'>
+					<block><text>The </text><link url="gpl.html">GPL</link><text> doesn't apply to the programs "</text><link url="devcont.html">DevCont</link><text>" and "</text><link url="japtra.html">Japtra</link><text>". Both have special license agreements as stated below. In the following the expression "author" always refers to Stefan Partusch.</text></block>
+
+					<list type="ordered">
+						<element><text>The programs "</text><link url="devcont.html">DevCont</link><text>" and "</text><link url="japtra.html">Japtra</link><text>" are provided free of charge by the author.</text></element>
+						<element><text>They are free to use and may be copied arbitrarily.</text></element>
+						<element><text>But they mustn't be changed. This especially applies to marks refering to author or copyright.</text></element>
+						<element><text>All rights remain with the author. The programs always remain intellectual property of the author.</text></element>
+						<element><text>Redistribution of the programs is not only allowed but even desired, as long as they remain completely unchanged and undamaged.</text></element>
+						<element><text>The author undertakes great efforts to secure the quality of the programs, yet no warranty on accuracy and functionality of the programs can be granted.</text></element>
+						<element><text>In no event will the author be held liable for any damages arising from the use of these programs.</text></element>
+						<element><text>Because the programs are licensed free of charge, there is absolutely no warranty for the programs. Always use them at your very own risk!</text></element>
+					</list>
+				</section>
+			</section>
+		</section>
+	</content>
+</page>

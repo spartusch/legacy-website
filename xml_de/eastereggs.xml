@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Suchtipps für Easter Eggs</title>
+		<language>de</language>
+		<description>Tipps zu den in meinen Programmen versteckten Easter Eggs</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="Suchtipps für Easter Eggs">
+			<block>
+				<text>Fast jedes meiner Programme verfügt über ein "Überraschungsei", ein sog. Easter Egg. Das ist eine kleine Spielerei, die nirgends dokumentiert ist und vom Anwender gleichsam entdeckt werden muss. Nun sind diese Funktionen aber mitunter nicht leicht zu finden, weswegen ich mich entschloßen habe, folgende Suchtipps für die in meinen Programmen versteckten Easter Eggs zu geben.</text><text>Im Folgenden nun zu jedem Programm ein "verschlüsselter" Hinweis, wie das Überraschungsei gefunden werden kann und was es bewirkt. Viel Glück und Spaß beim Tüfteln!</text>
+			</block>
+
+			<easter_egg>
+				<program url="devcont.html">DevCont</program>
+				<hint>Ein Name befiehlt die Adresse.</hint>
+			</easter_egg>
+
+			<easter_egg>
+				<program url="japtra.html">Japtra</program>
+				<hint>Schönheit in der unpassenden Sprache ist ein Liebesschwur.</hint>
+			</easter_egg>
+			
+			<easter_egg>
+				<program url="ptinfo.html">PTInfo München</program>
+				<hint>Die unsinnige Rückfahrt ist ein Witz.</hint>
+			</easter_egg>
+			
+			<easter_egg>
+				<program url="statdze.html">StatDZE</program>
+				<hint>Ein Klick auf das Banner stellt es in den Hintergrund.</hint>
+			</easter_egg>
+		</section>
+	</content>
+</page>

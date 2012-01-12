@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>PTInfo Munich for Mobiles</title>
+		<language>en</language>
+		<description>A small program for mobile devices to calculate departure and arrival times for public trains in Munich.</description>
+		<category>program</category>
+	</meta>
+	<content>
+		<section title="PTInfo Munich for Mobiles">
+			<block><text>PTInfo Munich is a free Open Source program for Java enabled devices such as many cellular phones are. It calculates departure and arrival times of the Munich public transportation lines S1, S2, S5, S7 and S8. Additional lines will be added in future versions.</text><text>Start and destination stations are comfortably selected using lists. Departure and arrival times will then be computed and displayed for the next two available connections between the two stations. The times for a return are in addition quickly calculated. PTInfo Munich furthermore features a favorites management to save and easily load connections you often use. But the best of it all is that PTInfo Munich doesn't need any connection to the internet. It therefore doesn't cause costs at all!</text><text>PTInfo Munich is released under the terms and conditions of the </text><link url="gpl.html">GPL</link><text> and is thus freely available.</text></block>
+
+			<screenshot>
+				<thumb width="100" height="129">../graphics/thumbs/screenshots/ptinfo.jpg</thumb>
+				<large>../graphics/screenshots/ptinfo_en.jpg</large>
+				<description>PTInfo Munich on the Sun JWT</description>
+			</screenshot>
+
+			<qinfo>
+				<name>PTInfo Munich</name>
+				<version>0.0.1</version>
+				<filename>ptinfo</filename>
+				<features>
+					<f>Runs on all new cellular phones (just requires support of MIDP 2.0 or newer)</f>
+					<f>Calculates the departure and arrival times of the Munich public trains S1, S2, S5, S7 and S8</f>
+					<f>Enables quick access to often used connections via favorites management</f>
+					<f>Computes departure and arrival times starting at different times</f>
+					<f>Requires no internet connection and doesn't cause any costs!</f>
+					<f>Free and open source code. PTInfo Munich is Open Source!</f>
+				</features>
+			</qinfo>
+
+			<download>
+				<platform id="j2me">
+					<link>
+						<url>../download/PTInfo.jad</url>
+						<text>PTInfo.jad</text>
+						<filesize>0,3 KB</filesize>
+					</link>
+					<link>
+						<url>../download/PTInfo.jar</url>
+						<text>PTInfo.jar</text>
+						<filesize>28 KB</filesize>
+					</link>
+				</platform>
+				<platform id="source">
+					<link>
+						<url>../download/PTInfo_src.zip</url>
+						<text>PTInfo_src.zip</text>
+						<filesize>42 KB</filesize>
+					</link>
+				</platform>
+			</download>
+		</section>
+	</content>
+</page>

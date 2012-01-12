@@ -1,0 +1,194 @@
+/*	CSS-Design for http://www.partusch.de.vu
+	Desgin for handheld devices only!
+	Copyright (c) 2005, 2006 by Stefan Partusch */
+
+body {
+	color: black;
+	background-color: white;
+	text-align: center;
+	font-size: 1em;
+}
+
+pre { text-align: left; }
+
+img {
+    border: 0;
+    max-width: 90%;
+}
+
+#content span.version, #content span.note { font-weight: bold; }
+#content span.note { text-decoration: underline; }
+
+#download h3 {
+	text-align: center;
+    font-weight: bold;
+}
+
+
+#title, #language, #menu, #content {
+	margin: 0% auto;
+	width: 100%;
+    border: 0;
+}
+
+#language { text-align: left; }
+#title { display: none; }
+
+#menu {
+	background-color: rgb(199,202,226);
+    padding: 0;
+}
+
+#content { padding: 1em 0; }
+
+#auto_toc {
+	margin: 1em 0;
+	padding: 0;
+	width: 100%;
+}
+
+#download {
+    margin: 2em 0;
+    width: 99%;
+}
+
+#screenshot_container  {
+    margin: 2em auto;
+    overflow: auto;
+    width: 99%;
+}
+#screenshot_container div {
+	width: 95%;
+    margin: 0 auto;
+}
+#screenshot_container div.multi { float: none; }
+
+#content div.program { width: 99%; }
+
+#copyright {
+    clear: left;
+	font-size: 0.7em;
+}
+
+
+#content p {
+	text-align: left;
+	margin: 1em auto 0 auto;
+    width: 100%;
+}
+
+#content p.egg {
+	background-color: rgb(232,232,232);
+	text-align: center;
+	border: 1px dotted #808080;
+}
+
+#news p { text-decoration: underline; }
+
+#screenshot_container div p {
+    text-align: center;
+    margin-top: 0;
+    width: 99%;
+}
+
+#content div.program p.img {
+    width: 140px;
+    float: none;
+}
+
+#download ul.platform p {
+    float: none;
+    width: 99%;
+}
+
+
+a { text-decoration: none; }
+a:link { color: rgb(0,120,180); }
+a:visited { color: rgb(128,0,0); }
+a:hover, a:active { color: rgb(250,0,0); }
+
+th a, h3 a {
+    font-weight: bold;
+	font-size: 1em;
+}
+th a:link, th a:visited, h3 a:link, h3 a:visited, h2 a:link, h2 a:visited { color: black; }
+th a:hover, th a:active, h3 a:hover, h3 a:active, h2 a:hover, h2 a:active { color: rgb(250,0,0); }
+
+#title a { color: white; }
+#title a:hover { color: rgb(0,0,128); }
+
+#nav li a {
+    color: black;
+    padding: 0.2em 0.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#nav li a:hover {
+    background-color: rgb(0,120,180);
+    color: white;
+}
+
+
+/* Navigation / Menu */
+
+#nav {
+    margin: 0 auto;
+    padding: 0;
+}
+#nav li {
+    display: inline;
+    list-style-type: none;
+    border: 0;
+    padding-right: 1em;
+}
+#nav li ul.sublist { display: none; }
+
+/* Lists in content */
+
+#content ul, #content ol { text-align: left; }
+
+#content ul.w3c_img {
+	text-align: center;
+    margin: 1em auto;
+    padding: 0;
+}
+#content ul.w3c_img li {
+    display: inline;
+    padding: 0 1em 0 0;
+    list-style-type: none;
+}
+
+#content ol.gpl { counter-reset: i -1; }
+#content ol.gpl li:before {
+    content: counter(i) ". ";
+    counter-increment: i;
+}
+#content ol.gpl li { list-style-type: none; }
+#content ol.gpl li ol li {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+}
+
+
+#download ul.platform { list-style-type: disc; }
+#download ul.platform li { list-style-type: disc; }
+#download ul.platform ul {
+    float: none;
+    width: 99%;
+}
+
+#auto_toc ol { margin: 0; }
+
+
+#content table {
+	text-align: left;
+    padding: 0;
+    margin: 2em auto 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 99%;
+}
+#content table th { text-align: center; }
+#content table td { vertical-align: top; }
+#content table td.lbel { font-weight: bold; }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Table of Contents</title>
+		<language>en</language>
+		<description>Table of contents of this website.</description>
+		<category>main_contents</category>
+	</meta>
+	<content>
+		<section title="Table of Contents">
+			<block><text>This is the table of contents or sitemap of this website.</text></block>
+			<table_of_contents>
+				<entry file="../index" title="Language selection">
+					<entry file="index" title="Home"/>
+					<entry file="contents"/>
+					<entry file="programs">
+						<entry file="martslists"/>
+						<entry file="bfd"/>
+						<entry file="devcont"/>
+						<entry file="japtra"/>
+						<entry file="ptinfo"/>
+						<entry file="eastereggs"/>
+						<entry file="copyright">
+							<entry file="gpl"/>
+						</entry>
+					</entry>
+					<entry file="docs">
+						<entry file="bfd_doc"/>
+						<entry file="bfd_log"/>
+						<entry file="devcont_doc"/>
+						<entry file="devcont_log"/>
+						<entry file="japtra_doc"/>
+						<entry file="japtra_log"/>
+						<entry file="ptinfo_doc"/>
+						<entry file="ptinfo_log"/>
+					</entry>
+					<entry file="about" title="About..."/>
+				</entry>
+			</table_of_contents>
+
+			<block><span class="note" xmlns="http://www.w3.org/1999/xhtml">Accessibility note:</span><text> There are shortcuts defined for the entries of the navigation menu. If your browser supports them, you can quickly access these entries by hitting "Alt + Digit" (</text><link url="http://www.opera.com">Opera</link><text>-Browser: first press "Shift + Esc", then "Digit"). Whereas "Digit" refers to a digit between 1 and 5. A digit is assigend to each entry of the menu, starting on the left with 1 ("Home"), 2 ("Contents") and so on until the last defined digit 5 ("About...") is reached.</text></block>
+		</section>
+	</content>
+</page>

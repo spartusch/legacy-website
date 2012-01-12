@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://www.partusch.de.vu">
+	<meta>
+		<title>Stundenplan XML+XSLT - Changelog</title>
+		<language>de</language>
+		<description>Changelog (Versionshistorie) von Stundenplan XML+XSLT</description>
+		<category>document</category>
+	</meta>
+	<content>
+		<section title="Stundenplan XML+XSLT Changelog" auto_toc="no">
+			<block><text>Im Folgenden sind alle Veränderungen gegenüber Vorgängerversion von </text><link url="stundenplan.html">Stundenplan XML+XSLT</link><text> aufgelistet.</text></block>
+
+			<section title="Version 2.0 (02.09.2008)">
+				<list>
+					<element><text>Offizielle Erstveröffentlichung</text></element>
+				</list>
+
+			</section>
+
+			<!--<section title="Version 1.1 (April 2007)">
+				<list>
+					<element><text>Inoffizielle Veröffentlichung</text></element>
+				</list>
+
+			</section>
+
+			<section title="Version 1.0 (März 2007)">
+				<list>
+					<element><text>Inoffizielle Erstveröffentlichung</text></element>
+				</list>
+
+			</section>-->
+		</section>
+	</content>
+</page>
