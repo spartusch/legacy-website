@@ -178,7 +178,7 @@
 		</p>
 -->
 		<p>
-			<xsl:text>Copyright &#169; 2001-2011 </xsl:text><a href="about.html">Stefan Partusch</a>
+			<xsl:text>Copyright &#169; 2001-2012 </xsl:text><a href="about.html">Stefan Partusch</a>
 			<br />&#160;
 
 			<!--<a href="http://home.arcor.de/partusch">home.arcor.de/partusch</a>
