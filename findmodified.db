@@ -14,7 +14,6 @@
 ./html_de/nasfvi.html	1326382982
 ./graphics/valid-rss.png	1326382728
 ./graphics/screenshots/nasfvi_suggest.jpg	1326382728
-./html_de/support.html	1326382985
 ./papers/furcht_angst_handout.pdf	1326382728
 ./html_de/japtra_log.html	1326382982
 ./download/devcont.zip	1326382728
@@ -31,7 +30,6 @@
 ./xml_de/gpl.xml	1326382729
 ./graphics/bullet.gif	1326382728
 ./xml_en/docs.xml	1326382729
-./xml_en/support.xml	1326382729
 ./xml_en/gpl.xml	1326382729
 ./graphics/thumbs/screenshots/ptinfo.jpg	1326382728
 ./xml_de/devcont_doc.xml	1326382729
@@ -90,7 +88,6 @@
 ./graphics/valid-xhtml10.png	1326382728
 ./upload.pl	1326382729
 ./graphics/screenshots/ptinfo_de.jpg	1326382728
-./html_en/support.html	1326382986
 ./html_de/japtra_doc.html	1326382984
 ./html_de/about.html	1326382984
 ./handheld.css	1326382728
@@ -153,11 +150,10 @@
 ./html_en/gpl.html	1326382986
 ./html_de/copyright.html	1326382982
 ./html_en/contents.html	1326382987
-./xml_de/support.xml	1326382729
 ./xml_en/bfd_doc.xml	1326382729
 ./graphics/en.jpg	1326382728
 ./html_de/index.html	1326541482
-./findmodified.db	1326383150
+./findmodified.db	1326550853
 ./html_de/ptinfo_log.html	1326382983
 ./graphics/donate-button.gif	1326382728
 ./download/pfd110.zip	1326382728
