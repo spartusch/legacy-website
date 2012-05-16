@@ -58,11 +58,10 @@
 		<entry file="contents" title="Inhalt"/>
 		<entry file="programs" title="Programme">
 			<entry file="nasfvi"/>
-			<entry file="martslists"/>
-			<!--<entry file="bfd"/>
+			<entry file="bfd"/>
 			<entry file="devcont"/>
 			<entry file="japtra"/>
-			<entry file="ptinfo"/>
+			<!--<entry file="ptinfo"/>
 			<entry file="statdze"/>
 			<entry file="eastereggs"/>
 			<entry file="stundenplan"/>-->

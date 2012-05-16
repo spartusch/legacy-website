@@ -12,16 +12,6 @@
 				<text>In diesem Bereich finden Sie alle meine verfügbaren Programme. Dabei handelt es sich ausnahmslos um Freeware, d.h., die Programme sind kostenlos und dürfen kopiert und vervielfältigt werden. Die Benutzung der Programme erfolgt immer auf eigene Gefahr, da ich keinerlei Garantie übernehmen kann! Bitte beachten Sie auch den Abschnitt "</text><link url="copyright.html">Lizenzen und Urheberrecht</link><text>".</text>
 			</block>
 
-			<section title="Apps für iOS (iPhone und iPod Touch)">
-				<program>
-					<name>Mart's Lists</name>
-					<title>Mart's Lists are smart lists</title>
-					<link>martslists.html</link>
-					<screenshot width="118" height="170">martslists_de_1.jpg</screenshot>
-					<description>Mart's Lists ermöglicht es einfach Listen zu erstellen, zu verwalten und durchzublättern. Wenn man es erlaubt, dann kann Mart's Lists automatisch lernen, welche Einträge regelmäßig hinzugefügt werden. Um das Leben noch angenehmer zu machen, unterstützt Mart's Lists außerdem die mit dem iPhone 4S eingeführte Spracheingabe!</description>
-				</program>
-			</section>
-
 			<section title="Plattformunabhängige Programme">
 				<program>
 					<name>NASfVI</name>

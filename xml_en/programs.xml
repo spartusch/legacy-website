@@ -10,16 +10,6 @@
 		<section title="Programs" auto_toc="no">
 			<block><text>This page lists all available programs. All of these programs are at least freeware and therefore completely free to use. Please note that I can't provide any warranty for the programs. See </text><link url="copyright.html">Licenses and Copyright</link><text> for additional license and copyright information.</text></block>
 
-			<section title="Apps for iOS (iPhone and iPod Touch)">
-				<program>
-					<name>Mart's Lists</name>
-					<title>Mart's Lists are smart lists</title>
-					<link>martslists.html</link>
-					<screenshot width="118" height="170">martslists_en_1.jpg</screenshot>
-					<description>Mart's Lists lets you create and manage lists easily. It provides a convenient pad-like way to browse through your lists. If you allow it to, Mart's Lists will learn automatically if an item is required regularly and in which interval. And Mart's Lists supports dictation of your lists to make your life even more comfortable!</description>
-				</program>
-			</section>
-
 			<section title="Platform independent programs">
 				<program>
 					<name>PTInfo Munich</name>

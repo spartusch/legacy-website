@@ -52,7 +52,6 @@
 		<entry file="index" title="Home"/>
 		<entry file="contents" title="Contents"/>
 		<entry file="programs" title="Programs">
-			<entry file="martslists"/>
 			<entry file="bfd"/>
 			<entry file="devcont"/>
 			<entry file="japtra"/>

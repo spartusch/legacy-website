@@ -16,7 +16,6 @@
 					<entry file="contents"/>
 					<entry file="programs">
 						<entry file="nasfvi"/>
-						<entry file="martslists"/>
 						<entry file="bfd"/>
 						<entry file="devcont"/>
 						<entry file="japtra"/>
